@@ -1,15 +1,15 @@
-# `staticResource` Submodule <a name="`staticResource` Submodule" id="@cdktf/provider-time.staticResource"></a>
+# `staticResource` Submodule <a name="`staticResource` Submodule" id="@cdktn/provider-time.staticResource"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### StaticResource <a name="StaticResource" id="@cdktf/provider-time.staticResource.StaticResource"></a>
+### StaticResource <a name="StaticResource" id="@cdktn/provider-time.staticResource.StaticResource"></a>
 
 Represents a {@link https://registry.terraform.io/providers/hashicorp/time/0.13.1/docs/resources/static time_static}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-time.staticResource.StaticResource.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-time.staticResource.StaticResource.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_time import static_resource
+from cdktn_provider_time import static_resource
 
 staticResource.StaticResource(
   scope: Construct,
@@ -28,21 +28,21 @@ staticResource.StaticResource(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.Initializer.parameter.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.Initializer.parameter.rfc3339">rfc3339</a></code> | <code>str</code> | Base timestamp in [RFC3339](https://datatracker.ietf.org/doc/html/rfc3339#section-5.8) format (see [RFC3339 time string](https://tools.ietf.org/html/rfc3339#section-5.8) e.g., `YYYY-MM-DDTHH:MM:SSZ`). Defaults to the current time. |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.Initializer.parameter.triggers">triggers</a></code> | <code>typing.Mapping[str]</code> | Arbitrary map of values that, when changed, will trigger a new base timestamp value to be saved. |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.Initializer.parameter.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.Initializer.parameter.rfc3339">rfc3339</a></code> | <code>str</code> | Base timestamp in [RFC3339](https://datatracker.ietf.org/doc/html/rfc3339#section-5.8) format (see [RFC3339 time string](https://tools.ietf.org/html/rfc3339#section-5.8) e.g., `YYYY-MM-DDTHH:MM:SSZ`). Defaults to the current time. |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.Initializer.parameter.triggers">triggers</a></code> | <code>typing.Mapping[str]</code> | Arbitrary map of values that, when changed, will trigger a new base timestamp value to be saved. |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-time.staticResource.StaticResource.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-time.staticResource.StaticResource.Initializer.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -50,7 +50,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-time.staticResource.StaticResource.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-time.staticResource.StaticResource.Initializer.parameter.id"></a>
 
 - *Type:* str
 
@@ -60,49 +60,49 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-time.staticResource.StaticResource.Initializer.parameter.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-time.staticResource.StaticResource.Initializer.parameter.connection"></a>
 
 - *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-time.staticResource.StaticResource.Initializer.parameter.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-time.staticResource.StaticResource.Initializer.parameter.count"></a>
 
 - *Type:* typing.Union[int, float] | cdktf.TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-time.staticResource.StaticResource.Initializer.parameter.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-time.staticResource.StaticResource.Initializer.parameter.dependsOn"></a>
 
 - *Type:* typing.List[cdktf.ITerraformDependable]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-time.staticResource.StaticResource.Initializer.parameter.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-time.staticResource.StaticResource.Initializer.parameter.forEach"></a>
 
 - *Type:* cdktf.ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-time.staticResource.StaticResource.Initializer.parameter.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-time.staticResource.StaticResource.Initializer.parameter.lifecycle"></a>
 
 - *Type:* cdktf.TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-time.staticResource.StaticResource.Initializer.parameter.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-time.staticResource.StaticResource.Initializer.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-time.staticResource.StaticResource.Initializer.parameter.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-time.staticResource.StaticResource.Initializer.parameter.provisioners"></a>
 
 - *Type:* typing.List[cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner]
 
 ---
 
-##### `rfc3339`<sup>Optional</sup> <a name="rfc3339" id="@cdktf/provider-time.staticResource.StaticResource.Initializer.parameter.rfc3339"></a>
+##### `rfc3339`<sup>Optional</sup> <a name="rfc3339" id="@cdktn/provider-time.staticResource.StaticResource.Initializer.parameter.rfc3339"></a>
 
 - *Type:* str
 
@@ -112,7 +112,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `triggers`<sup>Optional</sup> <a name="triggers" id="@cdktf/provider-time.staticResource.StaticResource.Initializer.parameter.triggers"></a>
+##### `triggers`<sup>Optional</sup> <a name="triggers" id="@cdktn/provider-time.staticResource.StaticResource.Initializer.parameter.triggers"></a>
 
 - *Type:* typing.Mapping[str]
 
@@ -128,35 +128,35 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.toString">to_string</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.addOverride">add_override</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.overrideLogicalId">override_logical_id</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.toHclTerraform">to_hcl_terraform</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.toMetadata">to_metadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.addMoveTarget">add_move_target</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.hasResourceMove">has_resource_move</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.importFrom">import_from</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.resetRfc3339">reset_rfc3339</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.resetTriggers">reset_triggers</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.toString">to_string</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.addOverride">add_override</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.overrideLogicalId">override_logical_id</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.toHclTerraform">to_hcl_terraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.toMetadata">to_metadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.addMoveTarget">add_move_target</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.hasResourceMove">has_resource_move</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.importFrom">import_from</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.resetRfc3339">reset_rfc3339</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.resetTriggers">reset_triggers</a></code> | *No description.* |
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-time.staticResource.StaticResource.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-time.staticResource.StaticResource.toString"></a>
 
 ```python
 def to_string() -> str
@@ -164,7 +164,7 @@ def to_string() -> str
 
 Returns a string representation of this construct.
 
-##### `add_override` <a name="add_override" id="@cdktf/provider-time.staticResource.StaticResource.addOverride"></a>
+##### `add_override` <a name="add_override" id="@cdktn/provider-time.staticResource.StaticResource.addOverride"></a>
 
 ```python
 def add_override(
@@ -173,19 +173,19 @@ def add_override(
 ) -> None
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-time.staticResource.StaticResource.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-time.staticResource.StaticResource.addOverride.parameter.path"></a>
 
 - *Type:* str
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-time.staticResource.StaticResource.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-time.staticResource.StaticResource.addOverride.parameter.value"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `override_logical_id` <a name="override_logical_id" id="@cdktf/provider-time.staticResource.StaticResource.overrideLogicalId"></a>
+##### `override_logical_id` <a name="override_logical_id" id="@cdktn/provider-time.staticResource.StaticResource.overrideLogicalId"></a>
 
 ```python
 def override_logical_id(
@@ -195,7 +195,7 @@ def override_logical_id(
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `new_logical_id`<sup>Required</sup> <a name="new_logical_id" id="@cdktf/provider-time.staticResource.StaticResource.overrideLogicalId.parameter.newLogicalId"></a>
+###### `new_logical_id`<sup>Required</sup> <a name="new_logical_id" id="@cdktn/provider-time.staticResource.StaticResource.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* str
 
@@ -203,7 +203,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `reset_override_logical_id` <a name="reset_override_logical_id" id="@cdktf/provider-time.staticResource.StaticResource.resetOverrideLogicalId"></a>
+##### `reset_override_logical_id` <a name="reset_override_logical_id" id="@cdktn/provider-time.staticResource.StaticResource.resetOverrideLogicalId"></a>
 
 ```python
 def reset_override_logical_id() -> None
@@ -211,19 +211,19 @@ def reset_override_logical_id() -> None
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `to_hcl_terraform` <a name="to_hcl_terraform" id="@cdktf/provider-time.staticResource.StaticResource.toHclTerraform"></a>
+##### `to_hcl_terraform` <a name="to_hcl_terraform" id="@cdktn/provider-time.staticResource.StaticResource.toHclTerraform"></a>
 
 ```python
 def to_hcl_terraform() -> typing.Any
 ```
 
-##### `to_metadata` <a name="to_metadata" id="@cdktf/provider-time.staticResource.StaticResource.toMetadata"></a>
+##### `to_metadata` <a name="to_metadata" id="@cdktn/provider-time.staticResource.StaticResource.toMetadata"></a>
 
 ```python
 def to_metadata() -> typing.Any
 ```
 
-##### `to_terraform` <a name="to_terraform" id="@cdktf/provider-time.staticResource.StaticResource.toTerraform"></a>
+##### `to_terraform` <a name="to_terraform" id="@cdktn/provider-time.staticResource.StaticResource.toTerraform"></a>
 
 ```python
 def to_terraform() -> typing.Any
@@ -231,7 +231,7 @@ def to_terraform() -> typing.Any
 
 Adds this resource to the terraform JSON output.
 
-##### `add_move_target` <a name="add_move_target" id="@cdktf/provider-time.staticResource.StaticResource.addMoveTarget"></a>
+##### `add_move_target` <a name="add_move_target" id="@cdktn/provider-time.staticResource.StaticResource.addMoveTarget"></a>
 
 ```python
 def add_move_target(
@@ -241,7 +241,7 @@ def add_move_target(
 
 Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 
-###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktf/provider-time.staticResource.StaticResource.addMoveTarget.parameter.moveTarget"></a>
+###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktn/provider-time.staticResource.StaticResource.addMoveTarget.parameter.moveTarget"></a>
 
 - *Type:* str
 
@@ -249,7 +249,7 @@ The string move target that will correspond to this resource.
 
 ---
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-time.staticResource.StaticResource.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-time.staticResource.StaticResource.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -257,13 +257,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-time.staticResource.StaticResource.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-time.staticResource.StaticResource.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-time.staticResource.StaticResource.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-time.staticResource.StaticResource.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -271,13 +271,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-time.staticResource.StaticResource.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-time.staticResource.StaticResource.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-time.staticResource.StaticResource.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-time.staticResource.StaticResource.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -285,13 +285,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-time.staticResource.StaticResource.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-time.staticResource.StaticResource.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-time.staticResource.StaticResource.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-time.staticResource.StaticResource.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -299,13 +299,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-time.staticResource.StaticResource.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-time.staticResource.StaticResource.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-time.staticResource.StaticResource.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-time.staticResource.StaticResource.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -313,13 +313,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-time.staticResource.StaticResource.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-time.staticResource.StaticResource.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-time.staticResource.StaticResource.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-time.staticResource.StaticResource.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -327,13 +327,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-time.staticResource.StaticResource.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-time.staticResource.StaticResource.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-time.staticResource.StaticResource.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-time.staticResource.StaticResource.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -341,13 +341,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-time.staticResource.StaticResource.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-time.staticResource.StaticResource.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-time.staticResource.StaticResource.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-time.staticResource.StaticResource.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -355,13 +355,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-time.staticResource.StaticResource.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-time.staticResource.StaticResource.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-time.staticResource.StaticResource.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-time.staticResource.StaticResource.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -369,19 +369,19 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-time.staticResource.StaticResource.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-time.staticResource.StaticResource.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `has_resource_move` <a name="has_resource_move" id="@cdktf/provider-time.staticResource.StaticResource.hasResourceMove"></a>
+##### `has_resource_move` <a name="has_resource_move" id="@cdktn/provider-time.staticResource.StaticResource.hasResourceMove"></a>
 
 ```python
 def has_resource_move() -> TerraformResourceMoveByTarget | TerraformResourceMoveById
 ```
 
-##### `import_from` <a name="import_from" id="@cdktf/provider-time.staticResource.StaticResource.importFrom"></a>
+##### `import_from` <a name="import_from" id="@cdktn/provider-time.staticResource.StaticResource.importFrom"></a>
 
 ```python
 def import_from(
@@ -390,19 +390,19 @@ def import_from(
 ) -> None
 ```
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-time.staticResource.StaticResource.importFrom.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-time.staticResource.StaticResource.importFrom.parameter.id"></a>
 
 - *Type:* str
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-time.staticResource.StaticResource.importFrom.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-time.staticResource.StaticResource.importFrom.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-time.staticResource.StaticResource.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-time.staticResource.StaticResource.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -410,13 +410,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-time.staticResource.StaticResource.interpolationForAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-time.staticResource.StaticResource.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `move_from_id` <a name="move_from_id" id="@cdktf/provider-time.staticResource.StaticResource.moveFromId"></a>
+##### `move_from_id` <a name="move_from_id" id="@cdktn/provider-time.staticResource.StaticResource.moveFromId"></a>
 
 ```python
 def move_from_id(
@@ -428,7 +428,7 @@ Move the resource corresponding to "id" to this resource.
 
 Note that the resource being moved from must be marked as moved using it's instance function.
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-time.staticResource.StaticResource.moveFromId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-time.staticResource.StaticResource.moveFromId.parameter.id"></a>
 
 - *Type:* str
 
@@ -436,7 +436,7 @@ Full id of resource being moved from, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `move_to` <a name="move_to" id="@cdktf/provider-time.staticResource.StaticResource.moveTo"></a>
+##### `move_to` <a name="move_to" id="@cdktn/provider-time.staticResource.StaticResource.moveTo"></a>
 
 ```python
 def move_to(
@@ -447,7 +447,7 @@ def move_to(
 
 Moves this resource to the target resource given by moveTarget.
 
-###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktf/provider-time.staticResource.StaticResource.moveTo.parameter.moveTarget"></a>
+###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktn/provider-time.staticResource.StaticResource.moveTo.parameter.moveTarget"></a>
 
 - *Type:* str
 
@@ -455,7 +455,7 @@ The previously set user defined string set by .addMoveTarget() corresponding to 
 
 ---
 
-###### `index`<sup>Optional</sup> <a name="index" id="@cdktf/provider-time.staticResource.StaticResource.moveTo.parameter.index"></a>
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-time.staticResource.StaticResource.moveTo.parameter.index"></a>
 
 - *Type:* str | typing.Union[int, float]
 
@@ -463,7 +463,7 @@ Optional The index corresponding to the key the resource is to appear in the for
 
 ---
 
-##### `move_to_id` <a name="move_to_id" id="@cdktf/provider-time.staticResource.StaticResource.moveToId"></a>
+##### `move_to_id` <a name="move_to_id" id="@cdktn/provider-time.staticResource.StaticResource.moveToId"></a>
 
 ```python
 def move_to_id(
@@ -473,7 +473,7 @@ def move_to_id(
 
 Moves this resource to the resource corresponding to "id".
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-time.staticResource.StaticResource.moveToId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-time.staticResource.StaticResource.moveToId.parameter.id"></a>
 
 - *Type:* str
 
@@ -481,13 +481,13 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `reset_rfc3339` <a name="reset_rfc3339" id="@cdktf/provider-time.staticResource.StaticResource.resetRfc3339"></a>
+##### `reset_rfc3339` <a name="reset_rfc3339" id="@cdktn/provider-time.staticResource.StaticResource.resetRfc3339"></a>
 
 ```python
 def reset_rfc3339() -> None
 ```
 
-##### `reset_triggers` <a name="reset_triggers" id="@cdktf/provider-time.staticResource.StaticResource.resetTriggers"></a>
+##### `reset_triggers` <a name="reset_triggers" id="@cdktn/provider-time.staticResource.StaticResource.resetTriggers"></a>
 
 ```python
 def reset_triggers() -> None
@@ -497,17 +497,17 @@ def reset_triggers() -> None
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.isTerraformElement">is_terraform_element</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.isTerraformResource">is_terraform_resource</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a StaticResource resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.isTerraformElement">is_terraform_element</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.isTerraformResource">is_terraform_resource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a StaticResource resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `is_construct` <a name="is_construct" id="@cdktf/provider-time.staticResource.StaticResource.isConstruct"></a>
+##### `is_construct` <a name="is_construct" id="@cdktn/provider-time.staticResource.StaticResource.isConstruct"></a>
 
 ```python
-from cdktf_cdktf_provider_time import static_resource
+from cdktn_provider_time import static_resource
 
 staticResource.StaticResource.is_construct(
   x: typing.Any
@@ -530,7 +530,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-time.staticResource.StaticResource.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-time.staticResource.StaticResource.isConstruct.parameter.x"></a>
 
 - *Type:* typing.Any
 
@@ -538,42 +538,42 @@ Any object.
 
 ---
 
-##### `is_terraform_element` <a name="is_terraform_element" id="@cdktf/provider-time.staticResource.StaticResource.isTerraformElement"></a>
+##### `is_terraform_element` <a name="is_terraform_element" id="@cdktn/provider-time.staticResource.StaticResource.isTerraformElement"></a>
 
 ```python
-from cdktf_cdktf_provider_time import static_resource
+from cdktn_provider_time import static_resource
 
 staticResource.StaticResource.is_terraform_element(
   x: typing.Any
 )
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-time.staticResource.StaticResource.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-time.staticResource.StaticResource.isTerraformElement.parameter.x"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `is_terraform_resource` <a name="is_terraform_resource" id="@cdktf/provider-time.staticResource.StaticResource.isTerraformResource"></a>
+##### `is_terraform_resource` <a name="is_terraform_resource" id="@cdktn/provider-time.staticResource.StaticResource.isTerraformResource"></a>
 
 ```python
-from cdktf_cdktf_provider_time import static_resource
+from cdktn_provider_time import static_resource
 
 staticResource.StaticResource.is_terraform_resource(
   x: typing.Any
 )
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-time.staticResource.StaticResource.isTerraformResource.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-time.staticResource.StaticResource.isTerraformResource.parameter.x"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktf/provider-time.staticResource.StaticResource.generateConfigForImport"></a>
+##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktn/provider-time.staticResource.StaticResource.generateConfigForImport"></a>
 
 ```python
-from cdktf_cdktf_provider_time import static_resource
+from cdktn_provider_time import static_resource
 
 staticResource.StaticResource.generate_config_for_import(
   scope: Construct,
@@ -585,7 +585,7 @@ staticResource.StaticResource.generate_config_for_import(
 
 Generates CDKTF code for importing a StaticResource resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-time.staticResource.StaticResource.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-time.staticResource.StaticResource.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -593,7 +593,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktf/provider-time.staticResource.StaticResource.generateConfigForImport.parameter.importToId"></a>
+###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktn/provider-time.staticResource.StaticResource.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* str
 
@@ -601,7 +601,7 @@ The construct id used in the generated config for the StaticResource to import.
 
 ---
 
-###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktf/provider-time.staticResource.StaticResource.generateConfigForImport.parameter.importFromId"></a>
+###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktn/provider-time.staticResource.StaticResource.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* str
 
@@ -611,7 +611,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/time/0.13.
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-time.staticResource.StaticResource.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-time.staticResource.StaticResource.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
@@ -623,36 +623,36 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/time/0.13.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.property.day">day</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.property.hour">hour</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.property.id">id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.property.minute">minute</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.property.month">month</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.property.second">second</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.property.unix">unix</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.property.year">year</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.property.rfc3339Input">rfc3339_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.property.triggersInput">triggers_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.property.rfc3339">rfc3339</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.property.triggers">triggers</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.property.day">day</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.property.hour">hour</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.property.minute">minute</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.property.month">month</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.property.second">second</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.property.unix">unix</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.property.year">year</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.property.rfc3339Input">rfc3339_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.property.triggersInput">triggers_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.property.rfc3339">rfc3339</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.property.triggers">triggers</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="@cdktf/provider-time.staticResource.StaticResource.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-time.staticResource.StaticResource.property.node"></a>
 
 ```python
 node: Node
@@ -664,7 +664,7 @@ The tree node.
 
 ---
 
-##### `cdktf_stack`<sup>Required</sup> <a name="cdktf_stack" id="@cdktf/provider-time.staticResource.StaticResource.property.cdktfStack"></a>
+##### `cdktf_stack`<sup>Required</sup> <a name="cdktf_stack" id="@cdktn/provider-time.staticResource.StaticResource.property.cdktfStack"></a>
 
 ```python
 cdktf_stack: TerraformStack
@@ -674,7 +674,7 @@ cdktf_stack: TerraformStack
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-time.staticResource.StaticResource.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-time.staticResource.StaticResource.property.fqn"></a>
 
 ```python
 fqn: str
@@ -684,7 +684,7 @@ fqn: str
 
 ---
 
-##### `friendly_unique_id`<sup>Required</sup> <a name="friendly_unique_id" id="@cdktf/provider-time.staticResource.StaticResource.property.friendlyUniqueId"></a>
+##### `friendly_unique_id`<sup>Required</sup> <a name="friendly_unique_id" id="@cdktn/provider-time.staticResource.StaticResource.property.friendlyUniqueId"></a>
 
 ```python
 friendly_unique_id: str
@@ -694,7 +694,7 @@ friendly_unique_id: str
 
 ---
 
-##### `terraform_meta_arguments`<sup>Required</sup> <a name="terraform_meta_arguments" id="@cdktf/provider-time.staticResource.StaticResource.property.terraformMetaArguments"></a>
+##### `terraform_meta_arguments`<sup>Required</sup> <a name="terraform_meta_arguments" id="@cdktn/provider-time.staticResource.StaticResource.property.terraformMetaArguments"></a>
 
 ```python
 terraform_meta_arguments: typing.Mapping[typing.Any]
@@ -704,7 +704,7 @@ terraform_meta_arguments: typing.Mapping[typing.Any]
 
 ---
 
-##### `terraform_resource_type`<sup>Required</sup> <a name="terraform_resource_type" id="@cdktf/provider-time.staticResource.StaticResource.property.terraformResourceType"></a>
+##### `terraform_resource_type`<sup>Required</sup> <a name="terraform_resource_type" id="@cdktn/provider-time.staticResource.StaticResource.property.terraformResourceType"></a>
 
 ```python
 terraform_resource_type: str
@@ -714,7 +714,7 @@ terraform_resource_type: str
 
 ---
 
-##### `terraform_generator_metadata`<sup>Optional</sup> <a name="terraform_generator_metadata" id="@cdktf/provider-time.staticResource.StaticResource.property.terraformGeneratorMetadata"></a>
+##### `terraform_generator_metadata`<sup>Optional</sup> <a name="terraform_generator_metadata" id="@cdktn/provider-time.staticResource.StaticResource.property.terraformGeneratorMetadata"></a>
 
 ```python
 terraform_generator_metadata: TerraformProviderGeneratorMetadata
@@ -724,7 +724,7 @@ terraform_generator_metadata: TerraformProviderGeneratorMetadata
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-time.staticResource.StaticResource.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-time.staticResource.StaticResource.property.connection"></a>
 
 ```python
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
@@ -734,7 +734,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-time.staticResource.StaticResource.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-time.staticResource.StaticResource.property.count"></a>
 
 ```python
 count: typing.Union[int, float] | TerraformCount
@@ -744,7 +744,7 @@ count: typing.Union[int, float] | TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-time.staticResource.StaticResource.property.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-time.staticResource.StaticResource.property.dependsOn"></a>
 
 ```python
 depends_on: typing.List[str]
@@ -754,7 +754,7 @@ depends_on: typing.List[str]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-time.staticResource.StaticResource.property.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-time.staticResource.StaticResource.property.forEach"></a>
 
 ```python
 for_each: ITerraformIterator
@@ -764,7 +764,7 @@ for_each: ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-time.staticResource.StaticResource.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-time.staticResource.StaticResource.property.lifecycle"></a>
 
 ```python
 lifecycle: TerraformResourceLifecycle
@@ -774,7 +774,7 @@ lifecycle: TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-time.staticResource.StaticResource.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-time.staticResource.StaticResource.property.provider"></a>
 
 ```python
 provider: TerraformProvider
@@ -784,7 +784,7 @@ provider: TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-time.staticResource.StaticResource.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-time.staticResource.StaticResource.property.provisioners"></a>
 
 ```python
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
@@ -794,7 +794,7 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 
 ---
 
-##### `day`<sup>Required</sup> <a name="day" id="@cdktf/provider-time.staticResource.StaticResource.property.day"></a>
+##### `day`<sup>Required</sup> <a name="day" id="@cdktn/provider-time.staticResource.StaticResource.property.day"></a>
 
 ```python
 day: typing.Union[int, float]
@@ -804,7 +804,7 @@ day: typing.Union[int, float]
 
 ---
 
-##### `hour`<sup>Required</sup> <a name="hour" id="@cdktf/provider-time.staticResource.StaticResource.property.hour"></a>
+##### `hour`<sup>Required</sup> <a name="hour" id="@cdktn/provider-time.staticResource.StaticResource.property.hour"></a>
 
 ```python
 hour: typing.Union[int, float]
@@ -814,7 +814,7 @@ hour: typing.Union[int, float]
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-time.staticResource.StaticResource.property.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-time.staticResource.StaticResource.property.id"></a>
 
 ```python
 id: str
@@ -824,7 +824,7 @@ id: str
 
 ---
 
-##### `minute`<sup>Required</sup> <a name="minute" id="@cdktf/provider-time.staticResource.StaticResource.property.minute"></a>
+##### `minute`<sup>Required</sup> <a name="minute" id="@cdktn/provider-time.staticResource.StaticResource.property.minute"></a>
 
 ```python
 minute: typing.Union[int, float]
@@ -834,7 +834,7 @@ minute: typing.Union[int, float]
 
 ---
 
-##### `month`<sup>Required</sup> <a name="month" id="@cdktf/provider-time.staticResource.StaticResource.property.month"></a>
+##### `month`<sup>Required</sup> <a name="month" id="@cdktn/provider-time.staticResource.StaticResource.property.month"></a>
 
 ```python
 month: typing.Union[int, float]
@@ -844,7 +844,7 @@ month: typing.Union[int, float]
 
 ---
 
-##### `second`<sup>Required</sup> <a name="second" id="@cdktf/provider-time.staticResource.StaticResource.property.second"></a>
+##### `second`<sup>Required</sup> <a name="second" id="@cdktn/provider-time.staticResource.StaticResource.property.second"></a>
 
 ```python
 second: typing.Union[int, float]
@@ -854,7 +854,7 @@ second: typing.Union[int, float]
 
 ---
 
-##### `unix`<sup>Required</sup> <a name="unix" id="@cdktf/provider-time.staticResource.StaticResource.property.unix"></a>
+##### `unix`<sup>Required</sup> <a name="unix" id="@cdktn/provider-time.staticResource.StaticResource.property.unix"></a>
 
 ```python
 unix: typing.Union[int, float]
@@ -864,7 +864,7 @@ unix: typing.Union[int, float]
 
 ---
 
-##### `year`<sup>Required</sup> <a name="year" id="@cdktf/provider-time.staticResource.StaticResource.property.year"></a>
+##### `year`<sup>Required</sup> <a name="year" id="@cdktn/provider-time.staticResource.StaticResource.property.year"></a>
 
 ```python
 year: typing.Union[int, float]
@@ -874,7 +874,7 @@ year: typing.Union[int, float]
 
 ---
 
-##### `rfc3339_input`<sup>Optional</sup> <a name="rfc3339_input" id="@cdktf/provider-time.staticResource.StaticResource.property.rfc3339Input"></a>
+##### `rfc3339_input`<sup>Optional</sup> <a name="rfc3339_input" id="@cdktn/provider-time.staticResource.StaticResource.property.rfc3339Input"></a>
 
 ```python
 rfc3339_input: str
@@ -884,7 +884,7 @@ rfc3339_input: str
 
 ---
 
-##### `triggers_input`<sup>Optional</sup> <a name="triggers_input" id="@cdktf/provider-time.staticResource.StaticResource.property.triggersInput"></a>
+##### `triggers_input`<sup>Optional</sup> <a name="triggers_input" id="@cdktn/provider-time.staticResource.StaticResource.property.triggersInput"></a>
 
 ```python
 triggers_input: typing.Mapping[str]
@@ -894,7 +894,7 @@ triggers_input: typing.Mapping[str]
 
 ---
 
-##### `rfc3339`<sup>Required</sup> <a name="rfc3339" id="@cdktf/provider-time.staticResource.StaticResource.property.rfc3339"></a>
+##### `rfc3339`<sup>Required</sup> <a name="rfc3339" id="@cdktn/provider-time.staticResource.StaticResource.property.rfc3339"></a>
 
 ```python
 rfc3339: str
@@ -904,7 +904,7 @@ rfc3339: str
 
 ---
 
-##### `triggers`<sup>Required</sup> <a name="triggers" id="@cdktf/provider-time.staticResource.StaticResource.property.triggers"></a>
+##### `triggers`<sup>Required</sup> <a name="triggers" id="@cdktn/provider-time.staticResource.StaticResource.property.triggers"></a>
 
 ```python
 triggers: typing.Mapping[str]
@@ -918,11 +918,11 @@ triggers: typing.Mapping[str]
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResource.property.tfResourceType">tfResourceType</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResource.property.tfResourceType">tfResourceType</a></code> | <code>str</code> | *No description.* |
 
 ---
 
-##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktf/provider-time.staticResource.StaticResource.property.tfResourceType"></a>
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-time.staticResource.StaticResource.property.tfResourceType"></a>
 
 ```python
 tfResourceType: str
@@ -934,12 +934,12 @@ tfResourceType: str
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### StaticResourceConfig <a name="StaticResourceConfig" id="@cdktf/provider-time.staticResource.StaticResourceConfig"></a>
+### StaticResourceConfig <a name="StaticResourceConfig" id="@cdktn/provider-time.staticResource.StaticResourceConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-time.staticResource.StaticResourceConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-time.staticResource.StaticResourceConfig.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_time import static_resource
+from cdktn_provider_time import static_resource
 
 staticResource.StaticResourceConfig(
   connection: SSHProvisionerConnection | WinrmProvisionerConnection = None,
@@ -958,19 +958,19 @@ staticResource.StaticResourceConfig(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResourceConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResourceConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResourceConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResourceConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResourceConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResourceConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResourceConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResourceConfig.property.rfc3339">rfc3339</a></code> | <code>str</code> | Base timestamp in [RFC3339](https://datatracker.ietf.org/doc/html/rfc3339#section-5.8) format (see [RFC3339 time string](https://tools.ietf.org/html/rfc3339#section-5.8) e.g., `YYYY-MM-DDTHH:MM:SSZ`). Defaults to the current time. |
-| <code><a href="#@cdktf/provider-time.staticResource.StaticResourceConfig.property.triggers">triggers</a></code> | <code>typing.Mapping[str]</code> | Arbitrary map of values that, when changed, will trigger a new base timestamp value to be saved. |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResourceConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResourceConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResourceConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResourceConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResourceConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResourceConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResourceConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResourceConfig.property.rfc3339">rfc3339</a></code> | <code>str</code> | Base timestamp in [RFC3339](https://datatracker.ietf.org/doc/html/rfc3339#section-5.8) format (see [RFC3339 time string](https://tools.ietf.org/html/rfc3339#section-5.8) e.g., `YYYY-MM-DDTHH:MM:SSZ`). Defaults to the current time. |
+| <code><a href="#@cdktn/provider-time.staticResource.StaticResourceConfig.property.triggers">triggers</a></code> | <code>typing.Mapping[str]</code> | Arbitrary map of values that, when changed, will trigger a new base timestamp value to be saved. |
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-time.staticResource.StaticResourceConfig.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-time.staticResource.StaticResourceConfig.property.connection"></a>
 
 ```python
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
@@ -980,7 +980,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-time.staticResource.StaticResourceConfig.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-time.staticResource.StaticResourceConfig.property.count"></a>
 
 ```python
 count: typing.Union[int, float] | TerraformCount
@@ -990,7 +990,7 @@ count: typing.Union[int, float] | TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-time.staticResource.StaticResourceConfig.property.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-time.staticResource.StaticResourceConfig.property.dependsOn"></a>
 
 ```python
 depends_on: typing.List[ITerraformDependable]
@@ -1000,7 +1000,7 @@ depends_on: typing.List[ITerraformDependable]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-time.staticResource.StaticResourceConfig.property.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-time.staticResource.StaticResourceConfig.property.forEach"></a>
 
 ```python
 for_each: ITerraformIterator
@@ -1010,7 +1010,7 @@ for_each: ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-time.staticResource.StaticResourceConfig.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-time.staticResource.StaticResourceConfig.property.lifecycle"></a>
 
 ```python
 lifecycle: TerraformResourceLifecycle
@@ -1020,7 +1020,7 @@ lifecycle: TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-time.staticResource.StaticResourceConfig.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-time.staticResource.StaticResourceConfig.property.provider"></a>
 
 ```python
 provider: TerraformProvider
@@ -1030,7 +1030,7 @@ provider: TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-time.staticResource.StaticResourceConfig.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-time.staticResource.StaticResourceConfig.property.provisioners"></a>
 
 ```python
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
@@ -1040,7 +1040,7 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 
 ---
 
-##### `rfc3339`<sup>Optional</sup> <a name="rfc3339" id="@cdktf/provider-time.staticResource.StaticResourceConfig.property.rfc3339"></a>
+##### `rfc3339`<sup>Optional</sup> <a name="rfc3339" id="@cdktn/provider-time.staticResource.StaticResourceConfig.property.rfc3339"></a>
 
 ```python
 rfc3339: str
@@ -1054,7 +1054,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `triggers`<sup>Optional</sup> <a name="triggers" id="@cdktf/provider-time.staticResource.StaticResourceConfig.property.triggers"></a>
+##### `triggers`<sup>Optional</sup> <a name="triggers" id="@cdktn/provider-time.staticResource.StaticResourceConfig.property.triggers"></a>
 
 ```python
 triggers: typing.Mapping[str]
