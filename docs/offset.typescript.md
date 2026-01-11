@@ -1,28 +1,28 @@
-# `offset` Submodule <a name="`offset` Submodule" id="@cdktf/provider-time.offset"></a>
+# `offset` Submodule <a name="`offset` Submodule" id="@cdktn/provider-time.offset"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### Offset <a name="Offset" id="@cdktf/provider-time.offset.Offset"></a>
+### Offset <a name="Offset" id="@cdktn/provider-time.offset.Offset"></a>
 
 Represents a {@link https://registry.terraform.io/providers/hashicorp/time/0.13.1/docs/resources/offset time_offset}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-time.offset.Offset.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-time.offset.Offset.Initializer"></a>
 
 ```typescript
-import { offset } from '@cdktf/provider-time'
+import { offset } from '@cdktn/provider-time'
 
 new offset.Offset(scope: Construct, id: string, config?: OffsetConfig)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-time.offset.Offset.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-time.offset.Offset.Initializer.parameter.id">id</a></code> | <code>string</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-time.offset.Offset.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktf/provider-time.offset.OffsetConfig">OffsetConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-time.offset.Offset.Initializer.parameter.id">id</a></code> | <code>string</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-time.offset.Offset.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktn/provider-time.offset.OffsetConfig">OffsetConfig</a></code> | *No description.* |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-time.offset.Offset.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-time.offset.Offset.Initializer.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -30,7 +30,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-time.offset.Offset.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-time.offset.Offset.Initializer.parameter.id"></a>
 
 - *Type:* string
 
@@ -40,9 +40,9 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `config`<sup>Optional</sup> <a name="config" id="@cdktf/provider-time.offset.Offset.Initializer.parameter.config"></a>
+##### `config`<sup>Optional</sup> <a name="config" id="@cdktn/provider-time.offset.Offset.Initializer.parameter.config"></a>
 
-- *Type:* <a href="#@cdktf/provider-time.offset.OffsetConfig">OffsetConfig</a>
+- *Type:* <a href="#@cdktn/provider-time.offset.OffsetConfig">OffsetConfig</a>
 
 ---
 
@@ -50,41 +50,41 @@ Must be unique amongst siblings in the same scope
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-time.offset.Offset.toString">toString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-time.offset.Offset.addOverride">addOverride</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.overrideLogicalId">overrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-time.offset.Offset.resetOverrideLogicalId">resetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-time.offset.Offset.toHclTerraform">toHclTerraform</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.toMetadata">toMetadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.toTerraform">toTerraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-time.offset.Offset.addMoveTarget">addMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
-| <code><a href="#@cdktf/provider-time.offset.Offset.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.getListAttribute">getListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.getStringAttribute">getStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.hasResourceMove">hasResourceMove</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.importFrom">importFrom</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.moveFromId">moveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
-| <code><a href="#@cdktf/provider-time.offset.Offset.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
-| <code><a href="#@cdktf/provider-time.offset.Offset.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
-| <code><a href="#@cdktf/provider-time.offset.Offset.resetBaseRfc3339">resetBaseRfc3339</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.resetOffsetDays">resetOffsetDays</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.resetOffsetHours">resetOffsetHours</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.resetOffsetMinutes">resetOffsetMinutes</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.resetOffsetMonths">resetOffsetMonths</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.resetOffsetSeconds">resetOffsetSeconds</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.resetOffsetYears">resetOffsetYears</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.resetTriggers">resetTriggers</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-time.offset.Offset.addOverride">addOverride</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.overrideLogicalId">overrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-time.offset.Offset.resetOverrideLogicalId">resetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-time.offset.Offset.toHclTerraform">toHclTerraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.toMetadata">toMetadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.toTerraform">toTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-time.offset.Offset.addMoveTarget">addMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-time.offset.Offset.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.hasResourceMove">hasResourceMove</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.importFrom">importFrom</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.moveFromId">moveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-time.offset.Offset.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-time.offset.Offset.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-time.offset.Offset.resetBaseRfc3339">resetBaseRfc3339</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.resetOffsetDays">resetOffsetDays</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.resetOffsetHours">resetOffsetHours</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.resetOffsetMinutes">resetOffsetMinutes</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.resetOffsetMonths">resetOffsetMonths</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.resetOffsetSeconds">resetOffsetSeconds</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.resetOffsetYears">resetOffsetYears</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.resetTriggers">resetTriggers</a></code> | *No description.* |
 
 ---
 
-##### `toString` <a name="toString" id="@cdktf/provider-time.offset.Offset.toString"></a>
+##### `toString` <a name="toString" id="@cdktn/provider-time.offset.Offset.toString"></a>
 
 ```typescript
 public toString(): string
@@ -92,25 +92,25 @@ public toString(): string
 
 Returns a string representation of this construct.
 
-##### `addOverride` <a name="addOverride" id="@cdktf/provider-time.offset.Offset.addOverride"></a>
+##### `addOverride` <a name="addOverride" id="@cdktn/provider-time.offset.Offset.addOverride"></a>
 
 ```typescript
 public addOverride(path: string, value: any): void
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-time.offset.Offset.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-time.offset.Offset.addOverride.parameter.path"></a>
 
 - *Type:* string
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-time.offset.Offset.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-time.offset.Offset.addOverride.parameter.value"></a>
 
 - *Type:* any
 
 ---
 
-##### `overrideLogicalId` <a name="overrideLogicalId" id="@cdktf/provider-time.offset.Offset.overrideLogicalId"></a>
+##### `overrideLogicalId` <a name="overrideLogicalId" id="@cdktn/provider-time.offset.Offset.overrideLogicalId"></a>
 
 ```typescript
 public overrideLogicalId(newLogicalId: string): void
@@ -118,7 +118,7 @@ public overrideLogicalId(newLogicalId: string): void
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktf/provider-time.offset.Offset.overrideLogicalId.parameter.newLogicalId"></a>
+###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktn/provider-time.offset.Offset.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* string
 
@@ -126,7 +126,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `resetOverrideLogicalId` <a name="resetOverrideLogicalId" id="@cdktf/provider-time.offset.Offset.resetOverrideLogicalId"></a>
+##### `resetOverrideLogicalId` <a name="resetOverrideLogicalId" id="@cdktn/provider-time.offset.Offset.resetOverrideLogicalId"></a>
 
 ```typescript
 public resetOverrideLogicalId(): void
@@ -134,19 +134,19 @@ public resetOverrideLogicalId(): void
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `toHclTerraform` <a name="toHclTerraform" id="@cdktf/provider-time.offset.Offset.toHclTerraform"></a>
+##### `toHclTerraform` <a name="toHclTerraform" id="@cdktn/provider-time.offset.Offset.toHclTerraform"></a>
 
 ```typescript
 public toHclTerraform(): any
 ```
 
-##### `toMetadata` <a name="toMetadata" id="@cdktf/provider-time.offset.Offset.toMetadata"></a>
+##### `toMetadata` <a name="toMetadata" id="@cdktn/provider-time.offset.Offset.toMetadata"></a>
 
 ```typescript
 public toMetadata(): any
 ```
 
-##### `toTerraform` <a name="toTerraform" id="@cdktf/provider-time.offset.Offset.toTerraform"></a>
+##### `toTerraform` <a name="toTerraform" id="@cdktn/provider-time.offset.Offset.toTerraform"></a>
 
 ```typescript
 public toTerraform(): any
@@ -154,7 +154,7 @@ public toTerraform(): any
 
 Adds this resource to the terraform JSON output.
 
-##### `addMoveTarget` <a name="addMoveTarget" id="@cdktf/provider-time.offset.Offset.addMoveTarget"></a>
+##### `addMoveTarget` <a name="addMoveTarget" id="@cdktn/provider-time.offset.Offset.addMoveTarget"></a>
 
 ```typescript
 public addMoveTarget(moveTarget: string): void
@@ -162,7 +162,7 @@ public addMoveTarget(moveTarget: string): void
 
 Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 
-###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-time.offset.Offset.addMoveTarget.parameter.moveTarget"></a>
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-time.offset.Offset.addMoveTarget.parameter.moveTarget"></a>
 
 - *Type:* string
 
@@ -170,151 +170,151 @@ The string move target that will correspond to this resource.
 
 ---
 
-##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktf/provider-time.offset.Offset.getAnyMapAttribute"></a>
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-time.offset.Offset.getAnyMapAttribute"></a>
 
 ```typescript
 public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-time.offset.Offset.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-time.offset.Offset.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktf/provider-time.offset.Offset.getBooleanAttribute"></a>
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-time.offset.Offset.getBooleanAttribute"></a>
 
 ```typescript
 public getBooleanAttribute(terraformAttribute: string): IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-time.offset.Offset.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-time.offset.Offset.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktf/provider-time.offset.Offset.getBooleanMapAttribute"></a>
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-time.offset.Offset.getBooleanMapAttribute"></a>
 
 ```typescript
 public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-time.offset.Offset.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-time.offset.Offset.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getListAttribute` <a name="getListAttribute" id="@cdktf/provider-time.offset.Offset.getListAttribute"></a>
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-time.offset.Offset.getListAttribute"></a>
 
 ```typescript
 public getListAttribute(terraformAttribute: string): string[]
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-time.offset.Offset.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-time.offset.Offset.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktf/provider-time.offset.Offset.getNumberAttribute"></a>
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-time.offset.Offset.getNumberAttribute"></a>
 
 ```typescript
 public getNumberAttribute(terraformAttribute: string): number
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-time.offset.Offset.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-time.offset.Offset.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktf/provider-time.offset.Offset.getNumberListAttribute"></a>
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-time.offset.Offset.getNumberListAttribute"></a>
 
 ```typescript
 public getNumberListAttribute(terraformAttribute: string): number[]
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-time.offset.Offset.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-time.offset.Offset.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktf/provider-time.offset.Offset.getNumberMapAttribute"></a>
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-time.offset.Offset.getNumberMapAttribute"></a>
 
 ```typescript
 public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-time.offset.Offset.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-time.offset.Offset.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getStringAttribute` <a name="getStringAttribute" id="@cdktf/provider-time.offset.Offset.getStringAttribute"></a>
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-time.offset.Offset.getStringAttribute"></a>
 
 ```typescript
 public getStringAttribute(terraformAttribute: string): string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-time.offset.Offset.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-time.offset.Offset.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktf/provider-time.offset.Offset.getStringMapAttribute"></a>
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-time.offset.Offset.getStringMapAttribute"></a>
 
 ```typescript
 public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-time.offset.Offset.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-time.offset.Offset.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `hasResourceMove` <a name="hasResourceMove" id="@cdktf/provider-time.offset.Offset.hasResourceMove"></a>
+##### `hasResourceMove` <a name="hasResourceMove" id="@cdktn/provider-time.offset.Offset.hasResourceMove"></a>
 
 ```typescript
 public hasResourceMove(): TerraformResourceMoveByTarget | TerraformResourceMoveById
 ```
 
-##### `importFrom` <a name="importFrom" id="@cdktf/provider-time.offset.Offset.importFrom"></a>
+##### `importFrom` <a name="importFrom" id="@cdktn/provider-time.offset.Offset.importFrom"></a>
 
 ```typescript
 public importFrom(id: string, provider?: TerraformProvider): void
 ```
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-time.offset.Offset.importFrom.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-time.offset.Offset.importFrom.parameter.id"></a>
 
 - *Type:* string
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-time.offset.Offset.importFrom.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-time.offset.Offset.importFrom.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
 ---
 
-##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktf/provider-time.offset.Offset.interpolationForAttribute"></a>
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-time.offset.Offset.interpolationForAttribute"></a>
 
 ```typescript
 public interpolationForAttribute(terraformAttribute: string): IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-time.offset.Offset.interpolationForAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-time.offset.Offset.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `moveFromId` <a name="moveFromId" id="@cdktf/provider-time.offset.Offset.moveFromId"></a>
+##### `moveFromId` <a name="moveFromId" id="@cdktn/provider-time.offset.Offset.moveFromId"></a>
 
 ```typescript
 public moveFromId(id: string): void
@@ -324,7 +324,7 @@ Move the resource corresponding to "id" to this resource.
 
 Note that the resource being moved from must be marked as moved using it's instance function.
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-time.offset.Offset.moveFromId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-time.offset.Offset.moveFromId.parameter.id"></a>
 
 - *Type:* string
 
@@ -332,7 +332,7 @@ Full id of resource being moved from, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `moveTo` <a name="moveTo" id="@cdktf/provider-time.offset.Offset.moveTo"></a>
+##### `moveTo` <a name="moveTo" id="@cdktn/provider-time.offset.Offset.moveTo"></a>
 
 ```typescript
 public moveTo(moveTarget: string, index?: string | number): void
@@ -340,7 +340,7 @@ public moveTo(moveTarget: string, index?: string | number): void
 
 Moves this resource to the target resource given by moveTarget.
 
-###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-time.offset.Offset.moveTo.parameter.moveTarget"></a>
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-time.offset.Offset.moveTo.parameter.moveTarget"></a>
 
 - *Type:* string
 
@@ -348,7 +348,7 @@ The previously set user defined string set by .addMoveTarget() corresponding to 
 
 ---
 
-###### `index`<sup>Optional</sup> <a name="index" id="@cdktf/provider-time.offset.Offset.moveTo.parameter.index"></a>
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-time.offset.Offset.moveTo.parameter.index"></a>
 
 - *Type:* string | number
 
@@ -356,7 +356,7 @@ Optional The index corresponding to the key the resource is to appear in the for
 
 ---
 
-##### `moveToId` <a name="moveToId" id="@cdktf/provider-time.offset.Offset.moveToId"></a>
+##### `moveToId` <a name="moveToId" id="@cdktn/provider-time.offset.Offset.moveToId"></a>
 
 ```typescript
 public moveToId(id: string): void
@@ -364,7 +364,7 @@ public moveToId(id: string): void
 
 Moves this resource to the resource corresponding to "id".
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-time.offset.Offset.moveToId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-time.offset.Offset.moveToId.parameter.id"></a>
 
 - *Type:* string
 
@@ -372,49 +372,49 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `resetBaseRfc3339` <a name="resetBaseRfc3339" id="@cdktf/provider-time.offset.Offset.resetBaseRfc3339"></a>
+##### `resetBaseRfc3339` <a name="resetBaseRfc3339" id="@cdktn/provider-time.offset.Offset.resetBaseRfc3339"></a>
 
 ```typescript
 public resetBaseRfc3339(): void
 ```
 
-##### `resetOffsetDays` <a name="resetOffsetDays" id="@cdktf/provider-time.offset.Offset.resetOffsetDays"></a>
+##### `resetOffsetDays` <a name="resetOffsetDays" id="@cdktn/provider-time.offset.Offset.resetOffsetDays"></a>
 
 ```typescript
 public resetOffsetDays(): void
 ```
 
-##### `resetOffsetHours` <a name="resetOffsetHours" id="@cdktf/provider-time.offset.Offset.resetOffsetHours"></a>
+##### `resetOffsetHours` <a name="resetOffsetHours" id="@cdktn/provider-time.offset.Offset.resetOffsetHours"></a>
 
 ```typescript
 public resetOffsetHours(): void
 ```
 
-##### `resetOffsetMinutes` <a name="resetOffsetMinutes" id="@cdktf/provider-time.offset.Offset.resetOffsetMinutes"></a>
+##### `resetOffsetMinutes` <a name="resetOffsetMinutes" id="@cdktn/provider-time.offset.Offset.resetOffsetMinutes"></a>
 
 ```typescript
 public resetOffsetMinutes(): void
 ```
 
-##### `resetOffsetMonths` <a name="resetOffsetMonths" id="@cdktf/provider-time.offset.Offset.resetOffsetMonths"></a>
+##### `resetOffsetMonths` <a name="resetOffsetMonths" id="@cdktn/provider-time.offset.Offset.resetOffsetMonths"></a>
 
 ```typescript
 public resetOffsetMonths(): void
 ```
 
-##### `resetOffsetSeconds` <a name="resetOffsetSeconds" id="@cdktf/provider-time.offset.Offset.resetOffsetSeconds"></a>
+##### `resetOffsetSeconds` <a name="resetOffsetSeconds" id="@cdktn/provider-time.offset.Offset.resetOffsetSeconds"></a>
 
 ```typescript
 public resetOffsetSeconds(): void
 ```
 
-##### `resetOffsetYears` <a name="resetOffsetYears" id="@cdktf/provider-time.offset.Offset.resetOffsetYears"></a>
+##### `resetOffsetYears` <a name="resetOffsetYears" id="@cdktn/provider-time.offset.Offset.resetOffsetYears"></a>
 
 ```typescript
 public resetOffsetYears(): void
 ```
 
-##### `resetTriggers` <a name="resetTriggers" id="@cdktf/provider-time.offset.Offset.resetTriggers"></a>
+##### `resetTriggers` <a name="resetTriggers" id="@cdktn/provider-time.offset.Offset.resetTriggers"></a>
 
 ```typescript
 public resetTriggers(): void
@@ -424,17 +424,17 @@ public resetTriggers(): void
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-time.offset.Offset.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-time.offset.Offset.isTerraformElement">isTerraformElement</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.isTerraformResource">isTerraformResource</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a Offset resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-time.offset.Offset.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-time.offset.Offset.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.isTerraformResource">isTerraformResource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a Offset resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `isConstruct` <a name="isConstruct" id="@cdktf/provider-time.offset.Offset.isConstruct"></a>
+##### `isConstruct` <a name="isConstruct" id="@cdktn/provider-time.offset.Offset.isConstruct"></a>
 
 ```typescript
-import { offset } from '@cdktf/provider-time'
+import { offset } from '@cdktn/provider-time'
 
 offset.Offset.isConstruct(x: any)
 ```
@@ -455,7 +455,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-time.offset.Offset.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-time.offset.Offset.isConstruct.parameter.x"></a>
 
 - *Type:* any
 
@@ -463,45 +463,45 @@ Any object.
 
 ---
 
-##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-time.offset.Offset.isTerraformElement"></a>
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktn/provider-time.offset.Offset.isTerraformElement"></a>
 
 ```typescript
-import { offset } from '@cdktf/provider-time'
+import { offset } from '@cdktn/provider-time'
 
 offset.Offset.isTerraformElement(x: any)
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-time.offset.Offset.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-time.offset.Offset.isTerraformElement.parameter.x"></a>
 
 - *Type:* any
 
 ---
 
-##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-time.offset.Offset.isTerraformResource"></a>
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktn/provider-time.offset.Offset.isTerraformResource"></a>
 
 ```typescript
-import { offset } from '@cdktf/provider-time'
+import { offset } from '@cdktn/provider-time'
 
 offset.Offset.isTerraformResource(x: any)
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-time.offset.Offset.isTerraformResource.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-time.offset.Offset.isTerraformResource.parameter.x"></a>
 
 - *Type:* any
 
 ---
 
-##### `generateConfigForImport` <a name="generateConfigForImport" id="@cdktf/provider-time.offset.Offset.generateConfigForImport"></a>
+##### `generateConfigForImport` <a name="generateConfigForImport" id="@cdktn/provider-time.offset.Offset.generateConfigForImport"></a>
 
 ```typescript
-import { offset } from '@cdktf/provider-time'
+import { offset } from '@cdktn/provider-time'
 
 offset.Offset.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
 ```
 
 Generates CDKTF code for importing a Offset resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-time.offset.Offset.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-time.offset.Offset.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -509,7 +509,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktf/provider-time.offset.Offset.generateConfigForImport.parameter.importToId"></a>
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktn/provider-time.offset.Offset.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* string
 
@@ -517,7 +517,7 @@ The construct id used in the generated config for the Offset to import.
 
 ---
 
-###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktf/provider-time.offset.Offset.generateConfigForImport.parameter.importFromId"></a>
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktn/provider-time.offset.Offset.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* string
 
@@ -527,7 +527,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/time/0.13.
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-time.offset.Offset.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-time.offset.Offset.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
@@ -539,49 +539,49 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/time/0.13.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.day">day</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.hour">hour</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.id">id</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.minute">minute</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.month">month</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.rfc3339">rfc3339</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.second">second</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.unix">unix</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.year">year</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.baseRfc3339Input">baseRfc3339Input</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.offsetDaysInput">offsetDaysInput</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.offsetHoursInput">offsetHoursInput</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.offsetMinutesInput">offsetMinutesInput</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.offsetMonthsInput">offsetMonthsInput</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.offsetSecondsInput">offsetSecondsInput</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.offsetYearsInput">offsetYearsInput</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.triggersInput">triggersInput</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.baseRfc3339">baseRfc3339</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.offsetDays">offsetDays</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.offsetHours">offsetHours</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.offsetMinutes">offsetMinutes</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.offsetMonths">offsetMonths</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.offsetSeconds">offsetSeconds</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.offsetYears">offsetYears</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.triggers">triggers</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.day">day</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.hour">hour</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.id">id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.minute">minute</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.month">month</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.rfc3339">rfc3339</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.second">second</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.unix">unix</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.year">year</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.baseRfc3339Input">baseRfc3339Input</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.offsetDaysInput">offsetDaysInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.offsetHoursInput">offsetHoursInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.offsetMinutesInput">offsetMinutesInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.offsetMonthsInput">offsetMonthsInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.offsetSecondsInput">offsetSecondsInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.offsetYearsInput">offsetYearsInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.triggersInput">triggersInput</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.baseRfc3339">baseRfc3339</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.offsetDays">offsetDays</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.offsetHours">offsetHours</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.offsetMinutes">offsetMinutes</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.offsetMonths">offsetMonths</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.offsetSeconds">offsetSeconds</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.offsetYears">offsetYears</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.triggers">triggers</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="@cdktf/provider-time.offset.Offset.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-time.offset.Offset.property.node"></a>
 
 ```typescript
 public readonly node: Node;
@@ -593,7 +593,7 @@ The tree node.
 
 ---
 
-##### `cdktfStack`<sup>Required</sup> <a name="cdktfStack" id="@cdktf/provider-time.offset.Offset.property.cdktfStack"></a>
+##### `cdktfStack`<sup>Required</sup> <a name="cdktfStack" id="@cdktn/provider-time.offset.Offset.property.cdktfStack"></a>
 
 ```typescript
 public readonly cdktfStack: TerraformStack;
@@ -603,7 +603,7 @@ public readonly cdktfStack: TerraformStack;
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-time.offset.Offset.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-time.offset.Offset.property.fqn"></a>
 
 ```typescript
 public readonly fqn: string;
@@ -613,7 +613,7 @@ public readonly fqn: string;
 
 ---
 
-##### `friendlyUniqueId`<sup>Required</sup> <a name="friendlyUniqueId" id="@cdktf/provider-time.offset.Offset.property.friendlyUniqueId"></a>
+##### `friendlyUniqueId`<sup>Required</sup> <a name="friendlyUniqueId" id="@cdktn/provider-time.offset.Offset.property.friendlyUniqueId"></a>
 
 ```typescript
 public readonly friendlyUniqueId: string;
@@ -623,7 +623,7 @@ public readonly friendlyUniqueId: string;
 
 ---
 
-##### `terraformMetaArguments`<sup>Required</sup> <a name="terraformMetaArguments" id="@cdktf/provider-time.offset.Offset.property.terraformMetaArguments"></a>
+##### `terraformMetaArguments`<sup>Required</sup> <a name="terraformMetaArguments" id="@cdktn/provider-time.offset.Offset.property.terraformMetaArguments"></a>
 
 ```typescript
 public readonly terraformMetaArguments: {[ key: string ]: any};
@@ -633,7 +633,7 @@ public readonly terraformMetaArguments: {[ key: string ]: any};
 
 ---
 
-##### `terraformResourceType`<sup>Required</sup> <a name="terraformResourceType" id="@cdktf/provider-time.offset.Offset.property.terraformResourceType"></a>
+##### `terraformResourceType`<sup>Required</sup> <a name="terraformResourceType" id="@cdktn/provider-time.offset.Offset.property.terraformResourceType"></a>
 
 ```typescript
 public readonly terraformResourceType: string;
@@ -643,7 +643,7 @@ public readonly terraformResourceType: string;
 
 ---
 
-##### `terraformGeneratorMetadata`<sup>Optional</sup> <a name="terraformGeneratorMetadata" id="@cdktf/provider-time.offset.Offset.property.terraformGeneratorMetadata"></a>
+##### `terraformGeneratorMetadata`<sup>Optional</sup> <a name="terraformGeneratorMetadata" id="@cdktn/provider-time.offset.Offset.property.terraformGeneratorMetadata"></a>
 
 ```typescript
 public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
@@ -653,7 +653,7 @@ public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-time.offset.Offset.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-time.offset.Offset.property.connection"></a>
 
 ```typescript
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
@@ -663,7 +663,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-time.offset.Offset.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-time.offset.Offset.property.count"></a>
 
 ```typescript
 public readonly count: number | TerraformCount;
@@ -673,7 +673,7 @@ public readonly count: number | TerraformCount;
 
 ---
 
-##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktf/provider-time.offset.Offset.property.dependsOn"></a>
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-time.offset.Offset.property.dependsOn"></a>
 
 ```typescript
 public readonly dependsOn: string[];
@@ -683,7 +683,7 @@ public readonly dependsOn: string[];
 
 ---
 
-##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktf/provider-time.offset.Offset.property.forEach"></a>
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-time.offset.Offset.property.forEach"></a>
 
 ```typescript
 public readonly forEach: ITerraformIterator;
@@ -693,7 +693,7 @@ public readonly forEach: ITerraformIterator;
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-time.offset.Offset.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-time.offset.Offset.property.lifecycle"></a>
 
 ```typescript
 public readonly lifecycle: TerraformResourceLifecycle;
@@ -703,7 +703,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-time.offset.Offset.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-time.offset.Offset.property.provider"></a>
 
 ```typescript
 public readonly provider: TerraformProvider;
@@ -713,7 +713,7 @@ public readonly provider: TerraformProvider;
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-time.offset.Offset.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-time.offset.Offset.property.provisioners"></a>
 
 ```typescript
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
@@ -723,7 +723,7 @@ public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteEx
 
 ---
 
-##### `day`<sup>Required</sup> <a name="day" id="@cdktf/provider-time.offset.Offset.property.day"></a>
+##### `day`<sup>Required</sup> <a name="day" id="@cdktn/provider-time.offset.Offset.property.day"></a>
 
 ```typescript
 public readonly day: number;
@@ -733,7 +733,7 @@ public readonly day: number;
 
 ---
 
-##### `hour`<sup>Required</sup> <a name="hour" id="@cdktf/provider-time.offset.Offset.property.hour"></a>
+##### `hour`<sup>Required</sup> <a name="hour" id="@cdktn/provider-time.offset.Offset.property.hour"></a>
 
 ```typescript
 public readonly hour: number;
@@ -743,7 +743,7 @@ public readonly hour: number;
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-time.offset.Offset.property.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-time.offset.Offset.property.id"></a>
 
 ```typescript
 public readonly id: string;
@@ -753,7 +753,7 @@ public readonly id: string;
 
 ---
 
-##### `minute`<sup>Required</sup> <a name="minute" id="@cdktf/provider-time.offset.Offset.property.minute"></a>
+##### `minute`<sup>Required</sup> <a name="minute" id="@cdktn/provider-time.offset.Offset.property.minute"></a>
 
 ```typescript
 public readonly minute: number;
@@ -763,7 +763,7 @@ public readonly minute: number;
 
 ---
 
-##### `month`<sup>Required</sup> <a name="month" id="@cdktf/provider-time.offset.Offset.property.month"></a>
+##### `month`<sup>Required</sup> <a name="month" id="@cdktn/provider-time.offset.Offset.property.month"></a>
 
 ```typescript
 public readonly month: number;
@@ -773,7 +773,7 @@ public readonly month: number;
 
 ---
 
-##### `rfc3339`<sup>Required</sup> <a name="rfc3339" id="@cdktf/provider-time.offset.Offset.property.rfc3339"></a>
+##### `rfc3339`<sup>Required</sup> <a name="rfc3339" id="@cdktn/provider-time.offset.Offset.property.rfc3339"></a>
 
 ```typescript
 public readonly rfc3339: string;
@@ -783,7 +783,7 @@ public readonly rfc3339: string;
 
 ---
 
-##### `second`<sup>Required</sup> <a name="second" id="@cdktf/provider-time.offset.Offset.property.second"></a>
+##### `second`<sup>Required</sup> <a name="second" id="@cdktn/provider-time.offset.Offset.property.second"></a>
 
 ```typescript
 public readonly second: number;
@@ -793,7 +793,7 @@ public readonly second: number;
 
 ---
 
-##### `unix`<sup>Required</sup> <a name="unix" id="@cdktf/provider-time.offset.Offset.property.unix"></a>
+##### `unix`<sup>Required</sup> <a name="unix" id="@cdktn/provider-time.offset.Offset.property.unix"></a>
 
 ```typescript
 public readonly unix: number;
@@ -803,7 +803,7 @@ public readonly unix: number;
 
 ---
 
-##### `year`<sup>Required</sup> <a name="year" id="@cdktf/provider-time.offset.Offset.property.year"></a>
+##### `year`<sup>Required</sup> <a name="year" id="@cdktn/provider-time.offset.Offset.property.year"></a>
 
 ```typescript
 public readonly year: number;
@@ -813,7 +813,7 @@ public readonly year: number;
 
 ---
 
-##### `baseRfc3339Input`<sup>Optional</sup> <a name="baseRfc3339Input" id="@cdktf/provider-time.offset.Offset.property.baseRfc3339Input"></a>
+##### `baseRfc3339Input`<sup>Optional</sup> <a name="baseRfc3339Input" id="@cdktn/provider-time.offset.Offset.property.baseRfc3339Input"></a>
 
 ```typescript
 public readonly baseRfc3339Input: string;
@@ -823,7 +823,7 @@ public readonly baseRfc3339Input: string;
 
 ---
 
-##### `offsetDaysInput`<sup>Optional</sup> <a name="offsetDaysInput" id="@cdktf/provider-time.offset.Offset.property.offsetDaysInput"></a>
+##### `offsetDaysInput`<sup>Optional</sup> <a name="offsetDaysInput" id="@cdktn/provider-time.offset.Offset.property.offsetDaysInput"></a>
 
 ```typescript
 public readonly offsetDaysInput: number;
@@ -833,7 +833,7 @@ public readonly offsetDaysInput: number;
 
 ---
 
-##### `offsetHoursInput`<sup>Optional</sup> <a name="offsetHoursInput" id="@cdktf/provider-time.offset.Offset.property.offsetHoursInput"></a>
+##### `offsetHoursInput`<sup>Optional</sup> <a name="offsetHoursInput" id="@cdktn/provider-time.offset.Offset.property.offsetHoursInput"></a>
 
 ```typescript
 public readonly offsetHoursInput: number;
@@ -843,7 +843,7 @@ public readonly offsetHoursInput: number;
 
 ---
 
-##### `offsetMinutesInput`<sup>Optional</sup> <a name="offsetMinutesInput" id="@cdktf/provider-time.offset.Offset.property.offsetMinutesInput"></a>
+##### `offsetMinutesInput`<sup>Optional</sup> <a name="offsetMinutesInput" id="@cdktn/provider-time.offset.Offset.property.offsetMinutesInput"></a>
 
 ```typescript
 public readonly offsetMinutesInput: number;
@@ -853,7 +853,7 @@ public readonly offsetMinutesInput: number;
 
 ---
 
-##### `offsetMonthsInput`<sup>Optional</sup> <a name="offsetMonthsInput" id="@cdktf/provider-time.offset.Offset.property.offsetMonthsInput"></a>
+##### `offsetMonthsInput`<sup>Optional</sup> <a name="offsetMonthsInput" id="@cdktn/provider-time.offset.Offset.property.offsetMonthsInput"></a>
 
 ```typescript
 public readonly offsetMonthsInput: number;
@@ -863,7 +863,7 @@ public readonly offsetMonthsInput: number;
 
 ---
 
-##### `offsetSecondsInput`<sup>Optional</sup> <a name="offsetSecondsInput" id="@cdktf/provider-time.offset.Offset.property.offsetSecondsInput"></a>
+##### `offsetSecondsInput`<sup>Optional</sup> <a name="offsetSecondsInput" id="@cdktn/provider-time.offset.Offset.property.offsetSecondsInput"></a>
 
 ```typescript
 public readonly offsetSecondsInput: number;
@@ -873,7 +873,7 @@ public readonly offsetSecondsInput: number;
 
 ---
 
-##### `offsetYearsInput`<sup>Optional</sup> <a name="offsetYearsInput" id="@cdktf/provider-time.offset.Offset.property.offsetYearsInput"></a>
+##### `offsetYearsInput`<sup>Optional</sup> <a name="offsetYearsInput" id="@cdktn/provider-time.offset.Offset.property.offsetYearsInput"></a>
 
 ```typescript
 public readonly offsetYearsInput: number;
@@ -883,7 +883,7 @@ public readonly offsetYearsInput: number;
 
 ---
 
-##### `triggersInput`<sup>Optional</sup> <a name="triggersInput" id="@cdktf/provider-time.offset.Offset.property.triggersInput"></a>
+##### `triggersInput`<sup>Optional</sup> <a name="triggersInput" id="@cdktn/provider-time.offset.Offset.property.triggersInput"></a>
 
 ```typescript
 public readonly triggersInput: {[ key: string ]: string};
@@ -893,7 +893,7 @@ public readonly triggersInput: {[ key: string ]: string};
 
 ---
 
-##### `baseRfc3339`<sup>Required</sup> <a name="baseRfc3339" id="@cdktf/provider-time.offset.Offset.property.baseRfc3339"></a>
+##### `baseRfc3339`<sup>Required</sup> <a name="baseRfc3339" id="@cdktn/provider-time.offset.Offset.property.baseRfc3339"></a>
 
 ```typescript
 public readonly baseRfc3339: string;
@@ -903,7 +903,7 @@ public readonly baseRfc3339: string;
 
 ---
 
-##### `offsetDays`<sup>Required</sup> <a name="offsetDays" id="@cdktf/provider-time.offset.Offset.property.offsetDays"></a>
+##### `offsetDays`<sup>Required</sup> <a name="offsetDays" id="@cdktn/provider-time.offset.Offset.property.offsetDays"></a>
 
 ```typescript
 public readonly offsetDays: number;
@@ -913,7 +913,7 @@ public readonly offsetDays: number;
 
 ---
 
-##### `offsetHours`<sup>Required</sup> <a name="offsetHours" id="@cdktf/provider-time.offset.Offset.property.offsetHours"></a>
+##### `offsetHours`<sup>Required</sup> <a name="offsetHours" id="@cdktn/provider-time.offset.Offset.property.offsetHours"></a>
 
 ```typescript
 public readonly offsetHours: number;
@@ -923,7 +923,7 @@ public readonly offsetHours: number;
 
 ---
 
-##### `offsetMinutes`<sup>Required</sup> <a name="offsetMinutes" id="@cdktf/provider-time.offset.Offset.property.offsetMinutes"></a>
+##### `offsetMinutes`<sup>Required</sup> <a name="offsetMinutes" id="@cdktn/provider-time.offset.Offset.property.offsetMinutes"></a>
 
 ```typescript
 public readonly offsetMinutes: number;
@@ -933,7 +933,7 @@ public readonly offsetMinutes: number;
 
 ---
 
-##### `offsetMonths`<sup>Required</sup> <a name="offsetMonths" id="@cdktf/provider-time.offset.Offset.property.offsetMonths"></a>
+##### `offsetMonths`<sup>Required</sup> <a name="offsetMonths" id="@cdktn/provider-time.offset.Offset.property.offsetMonths"></a>
 
 ```typescript
 public readonly offsetMonths: number;
@@ -943,7 +943,7 @@ public readonly offsetMonths: number;
 
 ---
 
-##### `offsetSeconds`<sup>Required</sup> <a name="offsetSeconds" id="@cdktf/provider-time.offset.Offset.property.offsetSeconds"></a>
+##### `offsetSeconds`<sup>Required</sup> <a name="offsetSeconds" id="@cdktn/provider-time.offset.Offset.property.offsetSeconds"></a>
 
 ```typescript
 public readonly offsetSeconds: number;
@@ -953,7 +953,7 @@ public readonly offsetSeconds: number;
 
 ---
 
-##### `offsetYears`<sup>Required</sup> <a name="offsetYears" id="@cdktf/provider-time.offset.Offset.property.offsetYears"></a>
+##### `offsetYears`<sup>Required</sup> <a name="offsetYears" id="@cdktn/provider-time.offset.Offset.property.offsetYears"></a>
 
 ```typescript
 public readonly offsetYears: number;
@@ -963,7 +963,7 @@ public readonly offsetYears: number;
 
 ---
 
-##### `triggers`<sup>Required</sup> <a name="triggers" id="@cdktf/provider-time.offset.Offset.property.triggers"></a>
+##### `triggers`<sup>Required</sup> <a name="triggers" id="@cdktn/provider-time.offset.Offset.property.triggers"></a>
 
 ```typescript
 public readonly triggers: {[ key: string ]: string};
@@ -977,11 +977,11 @@ public readonly triggers: {[ key: string ]: string};
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-time.offset.Offset.property.tfResourceType">tfResourceType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.Offset.property.tfResourceType">tfResourceType</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktf/provider-time.offset.Offset.property.tfResourceType"></a>
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-time.offset.Offset.property.tfResourceType"></a>
 
 ```typescript
 public readonly tfResourceType: string;
@@ -993,12 +993,12 @@ public readonly tfResourceType: string;
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### OffsetConfig <a name="OffsetConfig" id="@cdktf/provider-time.offset.OffsetConfig"></a>
+### OffsetConfig <a name="OffsetConfig" id="@cdktn/provider-time.offset.OffsetConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-time.offset.OffsetConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-time.offset.OffsetConfig.Initializer"></a>
 
 ```typescript
-import { offset } from '@cdktf/provider-time'
+import { offset } from '@cdktn/provider-time'
 
 const offsetConfig: offset.OffsetConfig = { ... }
 ```
@@ -1007,25 +1007,25 @@ const offsetConfig: offset.OffsetConfig = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-time.offset.OffsetConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.OffsetConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.OffsetConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.OffsetConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.OffsetConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.OffsetConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.OffsetConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-time.offset.OffsetConfig.property.baseRfc3339">baseRfc3339</a></code> | <code>string</code> | Base timestamp in [RFC3339](https://datatracker.ietf.org/doc/html/rfc3339#section-5.8) format (see [RFC3339 time string](https://tools.ietf.org/html/rfc3339#section-5.8) e.g., `YYYY-MM-DDTHH:MM:SSZ`). Defaults to the current time. |
-| <code><a href="#@cdktf/provider-time.offset.OffsetConfig.property.offsetDays">offsetDays</a></code> | <code>number</code> | Number of days to offset the base timestamp. At least one of the 'offset_' arguments must be configured. |
-| <code><a href="#@cdktf/provider-time.offset.OffsetConfig.property.offsetHours">offsetHours</a></code> | <code>number</code> | Number of hours to offset the base timestamp. At least one of the 'offset_' arguments must be configured. |
-| <code><a href="#@cdktf/provider-time.offset.OffsetConfig.property.offsetMinutes">offsetMinutes</a></code> | <code>number</code> | Number of minutes to offset the base timestamp. At least one of the 'offset_' arguments must be configured. |
-| <code><a href="#@cdktf/provider-time.offset.OffsetConfig.property.offsetMonths">offsetMonths</a></code> | <code>number</code> | Number of months to offset the base timestamp. At least one of the 'offset_' arguments must be configured. |
-| <code><a href="#@cdktf/provider-time.offset.OffsetConfig.property.offsetSeconds">offsetSeconds</a></code> | <code>number</code> | Number of seconds to offset the base timestamp. At least one of the 'offset_' arguments must be configured. |
-| <code><a href="#@cdktf/provider-time.offset.OffsetConfig.property.offsetYears">offsetYears</a></code> | <code>number</code> | Number of years to offset the base timestamp. At least one of the 'offset_' arguments must be configured. |
-| <code><a href="#@cdktf/provider-time.offset.OffsetConfig.property.triggers">triggers</a></code> | <code>{[ key: string ]: string}</code> | Arbitrary map of values that, when changed, will trigger a new base timestamp value to be saved. |
+| <code><a href="#@cdktn/provider-time.offset.OffsetConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.OffsetConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.OffsetConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.OffsetConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.OffsetConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.OffsetConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.OffsetConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.offset.OffsetConfig.property.baseRfc3339">baseRfc3339</a></code> | <code>string</code> | Base timestamp in [RFC3339](https://datatracker.ietf.org/doc/html/rfc3339#section-5.8) format (see [RFC3339 time string](https://tools.ietf.org/html/rfc3339#section-5.8) e.g., `YYYY-MM-DDTHH:MM:SSZ`). Defaults to the current time. |
+| <code><a href="#@cdktn/provider-time.offset.OffsetConfig.property.offsetDays">offsetDays</a></code> | <code>number</code> | Number of days to offset the base timestamp. At least one of the 'offset_' arguments must be configured. |
+| <code><a href="#@cdktn/provider-time.offset.OffsetConfig.property.offsetHours">offsetHours</a></code> | <code>number</code> | Number of hours to offset the base timestamp. At least one of the 'offset_' arguments must be configured. |
+| <code><a href="#@cdktn/provider-time.offset.OffsetConfig.property.offsetMinutes">offsetMinutes</a></code> | <code>number</code> | Number of minutes to offset the base timestamp. At least one of the 'offset_' arguments must be configured. |
+| <code><a href="#@cdktn/provider-time.offset.OffsetConfig.property.offsetMonths">offsetMonths</a></code> | <code>number</code> | Number of months to offset the base timestamp. At least one of the 'offset_' arguments must be configured. |
+| <code><a href="#@cdktn/provider-time.offset.OffsetConfig.property.offsetSeconds">offsetSeconds</a></code> | <code>number</code> | Number of seconds to offset the base timestamp. At least one of the 'offset_' arguments must be configured. |
+| <code><a href="#@cdktn/provider-time.offset.OffsetConfig.property.offsetYears">offsetYears</a></code> | <code>number</code> | Number of years to offset the base timestamp. At least one of the 'offset_' arguments must be configured. |
+| <code><a href="#@cdktn/provider-time.offset.OffsetConfig.property.triggers">triggers</a></code> | <code>{[ key: string ]: string}</code> | Arbitrary map of values that, when changed, will trigger a new base timestamp value to be saved. |
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-time.offset.OffsetConfig.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-time.offset.OffsetConfig.property.connection"></a>
 
 ```typescript
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
@@ -1035,7 +1035,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-time.offset.OffsetConfig.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-time.offset.OffsetConfig.property.count"></a>
 
 ```typescript
 public readonly count: number | TerraformCount;
@@ -1045,7 +1045,7 @@ public readonly count: number | TerraformCount;
 
 ---
 
-##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktf/provider-time.offset.OffsetConfig.property.dependsOn"></a>
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-time.offset.OffsetConfig.property.dependsOn"></a>
 
 ```typescript
 public readonly dependsOn: ITerraformDependable[];
@@ -1055,7 +1055,7 @@ public readonly dependsOn: ITerraformDependable[];
 
 ---
 
-##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktf/provider-time.offset.OffsetConfig.property.forEach"></a>
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-time.offset.OffsetConfig.property.forEach"></a>
 
 ```typescript
 public readonly forEach: ITerraformIterator;
@@ -1065,7 +1065,7 @@ public readonly forEach: ITerraformIterator;
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-time.offset.OffsetConfig.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-time.offset.OffsetConfig.property.lifecycle"></a>
 
 ```typescript
 public readonly lifecycle: TerraformResourceLifecycle;
@@ -1075,7 +1075,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-time.offset.OffsetConfig.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-time.offset.OffsetConfig.property.provider"></a>
 
 ```typescript
 public readonly provider: TerraformProvider;
@@ -1085,7 +1085,7 @@ public readonly provider: TerraformProvider;
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-time.offset.OffsetConfig.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-time.offset.OffsetConfig.property.provisioners"></a>
 
 ```typescript
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
@@ -1095,7 +1095,7 @@ public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteEx
 
 ---
 
-##### `baseRfc3339`<sup>Optional</sup> <a name="baseRfc3339" id="@cdktf/provider-time.offset.OffsetConfig.property.baseRfc3339"></a>
+##### `baseRfc3339`<sup>Optional</sup> <a name="baseRfc3339" id="@cdktn/provider-time.offset.OffsetConfig.property.baseRfc3339"></a>
 
 ```typescript
 public readonly baseRfc3339: string;
@@ -1109,7 +1109,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `offsetDays`<sup>Optional</sup> <a name="offsetDays" id="@cdktf/provider-time.offset.OffsetConfig.property.offsetDays"></a>
+##### `offsetDays`<sup>Optional</sup> <a name="offsetDays" id="@cdktn/provider-time.offset.OffsetConfig.property.offsetDays"></a>
 
 ```typescript
 public readonly offsetDays: number;
@@ -1123,7 +1123,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `offsetHours`<sup>Optional</sup> <a name="offsetHours" id="@cdktf/provider-time.offset.OffsetConfig.property.offsetHours"></a>
+##### `offsetHours`<sup>Optional</sup> <a name="offsetHours" id="@cdktn/provider-time.offset.OffsetConfig.property.offsetHours"></a>
 
 ```typescript
 public readonly offsetHours: number;
@@ -1137,7 +1137,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `offsetMinutes`<sup>Optional</sup> <a name="offsetMinutes" id="@cdktf/provider-time.offset.OffsetConfig.property.offsetMinutes"></a>
+##### `offsetMinutes`<sup>Optional</sup> <a name="offsetMinutes" id="@cdktn/provider-time.offset.OffsetConfig.property.offsetMinutes"></a>
 
 ```typescript
 public readonly offsetMinutes: number;
@@ -1151,7 +1151,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `offsetMonths`<sup>Optional</sup> <a name="offsetMonths" id="@cdktf/provider-time.offset.OffsetConfig.property.offsetMonths"></a>
+##### `offsetMonths`<sup>Optional</sup> <a name="offsetMonths" id="@cdktn/provider-time.offset.OffsetConfig.property.offsetMonths"></a>
 
 ```typescript
 public readonly offsetMonths: number;
@@ -1165,7 +1165,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `offsetSeconds`<sup>Optional</sup> <a name="offsetSeconds" id="@cdktf/provider-time.offset.OffsetConfig.property.offsetSeconds"></a>
+##### `offsetSeconds`<sup>Optional</sup> <a name="offsetSeconds" id="@cdktn/provider-time.offset.OffsetConfig.property.offsetSeconds"></a>
 
 ```typescript
 public readonly offsetSeconds: number;
@@ -1179,7 +1179,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `offsetYears`<sup>Optional</sup> <a name="offsetYears" id="@cdktf/provider-time.offset.OffsetConfig.property.offsetYears"></a>
+##### `offsetYears`<sup>Optional</sup> <a name="offsetYears" id="@cdktn/provider-time.offset.OffsetConfig.property.offsetYears"></a>
 
 ```typescript
 public readonly offsetYears: number;
@@ -1193,7 +1193,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `triggers`<sup>Optional</sup> <a name="triggers" id="@cdktf/provider-time.offset.OffsetConfig.property.triggers"></a>
+##### `triggers`<sup>Optional</sup> <a name="triggers" id="@cdktn/provider-time.offset.OffsetConfig.property.triggers"></a>
 
 ```typescript
 public readonly triggers: {[ key: string ]: string};
