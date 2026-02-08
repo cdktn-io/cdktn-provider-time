@@ -19,17 +19,17 @@ The PyPI package is available at [https://pypi.org/project/cdktn-provider-time](
 
 ### Nuget
 
-The Nuget package is available at [https://www.nuget.org/packages/Io.Cdktn.Cdktn.Providers.Time](https://www.nuget.org/packages/Io.Cdktn.Cdktn.Providers.Time).
+The Nuget package is available at [https://www.nuget.org/packages/Io.Cdktn.Providers.Time](https://www.nuget.org/packages/Io.Cdktn.Providers.Time).
 
-`dotnet add package Io.Cdktn.Cdktn.Providers.Time`
+`dotnet add package Io.Cdktn.Providers.Time`
 
 ### Maven
 
-The Maven package is available at [https://mvnrepository.com/artifact/com.Io.Cdktn/cdktn-provider-time](https://mvnrepository.com/artifact/com.Io.Cdktn/cdktn-provider-time).
+The Maven package is available at [https://mvnrepository.com/artifact/io.cdktn/cdktn-provider-time](https://mvnrepository.com/artifact/io.cdktn/cdktn-provider-time).
 
 ```
 <dependency>
-    <groupId>com.Io.Cdktn</groupId>
+    <groupId>io.cdktn</groupId>
     <artifactId>cdktn-provider-time</artifactId>
     <version>[REPLACE WITH DESIRED VERSION]</version>
 </dependency>
