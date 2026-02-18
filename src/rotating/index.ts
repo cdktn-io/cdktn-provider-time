@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface RotatingConfig extends cdktf.TerraformMetaArguments {
+export interface RotatingConfig extends cdktn.TerraformMetaArguments {
   /**
   * Base timestamp in [RFC3339](https://datatracker.ietf.org/doc/html/rfc3339#section-5.8) format (see [RFC3339 time string](https://tools.ietf.org/html/rfc3339#section-5.8) e.g., `YYYY-MM-DDTHH:MM:SSZ`). Defaults to the current time.
   *
@@ -65,7 +65,7 @@ export interface RotatingConfig extends cdktf.TerraformMetaArguments {
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/time/0.13.1/docs/resources/rotating time_rotating}
 */
-export class Rotating extends cdktf.TerraformResource {
+export class Rotating extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -76,14 +76,14 @@ export class Rotating extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a Rotating resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a Rotating resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Rotating to import
   * @param importFromId The id of the existing Rotating that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/time/0.13.1/docs/resources/rotating#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Rotating to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "time_rotating", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "time_rotating", importId: importFromId, provider });
       }
 
   // ===========
@@ -301,63 +301,63 @@ export class Rotating extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      rfc3339: cdktf.stringToTerraform(this._rfc3339),
-      rotation_days: cdktf.numberToTerraform(this._rotationDays),
-      rotation_hours: cdktf.numberToTerraform(this._rotationHours),
-      rotation_minutes: cdktf.numberToTerraform(this._rotationMinutes),
-      rotation_months: cdktf.numberToTerraform(this._rotationMonths),
-      rotation_rfc3339: cdktf.stringToTerraform(this._rotationRfc3339),
-      rotation_years: cdktf.numberToTerraform(this._rotationYears),
-      triggers: cdktf.hashMapper(cdktf.stringToTerraform)(this._triggers),
+      rfc3339: cdktn.stringToTerraform(this._rfc3339),
+      rotation_days: cdktn.numberToTerraform(this._rotationDays),
+      rotation_hours: cdktn.numberToTerraform(this._rotationHours),
+      rotation_minutes: cdktn.numberToTerraform(this._rotationMinutes),
+      rotation_months: cdktn.numberToTerraform(this._rotationMonths),
+      rotation_rfc3339: cdktn.stringToTerraform(this._rotationRfc3339),
+      rotation_years: cdktn.numberToTerraform(this._rotationYears),
+      triggers: cdktn.hashMapper(cdktn.stringToTerraform)(this._triggers),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       rfc3339: {
-        value: cdktf.stringToHclTerraform(this._rfc3339),
+        value: cdktn.stringToHclTerraform(this._rfc3339),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       rotation_days: {
-        value: cdktf.numberToHclTerraform(this._rotationDays),
+        value: cdktn.numberToHclTerraform(this._rotationDays),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       rotation_hours: {
-        value: cdktf.numberToHclTerraform(this._rotationHours),
+        value: cdktn.numberToHclTerraform(this._rotationHours),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       rotation_minutes: {
-        value: cdktf.numberToHclTerraform(this._rotationMinutes),
+        value: cdktn.numberToHclTerraform(this._rotationMinutes),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       rotation_months: {
-        value: cdktf.numberToHclTerraform(this._rotationMonths),
+        value: cdktn.numberToHclTerraform(this._rotationMonths),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       rotation_rfc3339: {
-        value: cdktf.stringToHclTerraform(this._rotationRfc3339),
+        value: cdktn.stringToHclTerraform(this._rotationRfc3339),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       rotation_years: {
-        value: cdktf.numberToHclTerraform(this._rotationYears),
+        value: cdktn.numberToHclTerraform(this._rotationYears),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       triggers: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._triggers),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._triggers),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",

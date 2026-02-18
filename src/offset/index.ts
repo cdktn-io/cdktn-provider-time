@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface OffsetConfig extends cdktf.TerraformMetaArguments {
+export interface OffsetConfig extends cdktn.TerraformMetaArguments {
   /**
   * Base timestamp in [RFC3339](https://datatracker.ietf.org/doc/html/rfc3339#section-5.8) format (see [RFC3339 time string](https://tools.ietf.org/html/rfc3339#section-5.8) e.g., `YYYY-MM-DDTHH:MM:SSZ`). Defaults to the current time.
   *
@@ -65,7 +65,7 @@ export interface OffsetConfig extends cdktf.TerraformMetaArguments {
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/time/0.13.1/docs/resources/offset time_offset}
 */
-export class Offset extends cdktf.TerraformResource {
+export class Offset extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -76,14 +76,14 @@ export class Offset extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a Offset resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a Offset resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Offset to import
   * @param importFromId The id of the existing Offset that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/time/0.13.1/docs/resources/offset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Offset to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "time_offset", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "time_offset", importId: importFromId, provider });
       }
 
   // ===========
@@ -306,63 +306,63 @@ export class Offset extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      base_rfc3339: cdktf.stringToTerraform(this._baseRfc3339),
-      offset_days: cdktf.numberToTerraform(this._offsetDays),
-      offset_hours: cdktf.numberToTerraform(this._offsetHours),
-      offset_minutes: cdktf.numberToTerraform(this._offsetMinutes),
-      offset_months: cdktf.numberToTerraform(this._offsetMonths),
-      offset_seconds: cdktf.numberToTerraform(this._offsetSeconds),
-      offset_years: cdktf.numberToTerraform(this._offsetYears),
-      triggers: cdktf.hashMapper(cdktf.stringToTerraform)(this._triggers),
+      base_rfc3339: cdktn.stringToTerraform(this._baseRfc3339),
+      offset_days: cdktn.numberToTerraform(this._offsetDays),
+      offset_hours: cdktn.numberToTerraform(this._offsetHours),
+      offset_minutes: cdktn.numberToTerraform(this._offsetMinutes),
+      offset_months: cdktn.numberToTerraform(this._offsetMonths),
+      offset_seconds: cdktn.numberToTerraform(this._offsetSeconds),
+      offset_years: cdktn.numberToTerraform(this._offsetYears),
+      triggers: cdktn.hashMapper(cdktn.stringToTerraform)(this._triggers),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       base_rfc3339: {
-        value: cdktf.stringToHclTerraform(this._baseRfc3339),
+        value: cdktn.stringToHclTerraform(this._baseRfc3339),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       offset_days: {
-        value: cdktf.numberToHclTerraform(this._offsetDays),
+        value: cdktn.numberToHclTerraform(this._offsetDays),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       offset_hours: {
-        value: cdktf.numberToHclTerraform(this._offsetHours),
+        value: cdktn.numberToHclTerraform(this._offsetHours),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       offset_minutes: {
-        value: cdktf.numberToHclTerraform(this._offsetMinutes),
+        value: cdktn.numberToHclTerraform(this._offsetMinutes),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       offset_months: {
-        value: cdktf.numberToHclTerraform(this._offsetMonths),
+        value: cdktn.numberToHclTerraform(this._offsetMonths),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       offset_seconds: {
-        value: cdktf.numberToHclTerraform(this._offsetSeconds),
+        value: cdktn.numberToHclTerraform(this._offsetSeconds),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       offset_years: {
-        value: cdktf.numberToHclTerraform(this._offsetYears),
+        value: cdktn.numberToHclTerraform(this._offsetYears),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       triggers: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._triggers),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._triggers),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",

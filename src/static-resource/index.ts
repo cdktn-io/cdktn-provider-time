@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface StaticResourceConfig extends cdktf.TerraformMetaArguments {
+export interface StaticResourceConfig extends cdktn.TerraformMetaArguments {
   /**
   * Base timestamp in [RFC3339](https://datatracker.ietf.org/doc/html/rfc3339#section-5.8) format (see [RFC3339 time string](https://tools.ietf.org/html/rfc3339#section-5.8) e.g., `YYYY-MM-DDTHH:MM:SSZ`). Defaults to the current time.
   *
@@ -29,7 +29,7 @@ export interface StaticResourceConfig extends cdktf.TerraformMetaArguments {
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/time/0.13.1/docs/resources/static time_static}
 */
-export class StaticResource extends cdktf.TerraformResource {
+export class StaticResource extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -40,14 +40,14 @@ export class StaticResource extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a StaticResource resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a StaticResource resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StaticResource to import
   * @param importFromId The id of the existing StaticResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/time/0.13.1/docs/resources/static#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StaticResource to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "time_static", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "time_static", importId: importFromId, provider });
       }
 
   // ===========
@@ -163,21 +163,21 @@ export class StaticResource extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      rfc3339: cdktf.stringToTerraform(this._rfc3339),
-      triggers: cdktf.hashMapper(cdktf.stringToTerraform)(this._triggers),
+      rfc3339: cdktn.stringToTerraform(this._rfc3339),
+      triggers: cdktn.hashMapper(cdktn.stringToTerraform)(this._triggers),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       rfc3339: {
-        value: cdktf.stringToHclTerraform(this._rfc3339),
+        value: cdktn.stringToHclTerraform(this._rfc3339),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       triggers: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._triggers),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._triggers),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
