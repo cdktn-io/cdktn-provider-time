@@ -144,6 +144,13 @@
       }
     ]
   },
+  "cdktf": {
+    "isDeprecated": false,
+    "provider": {
+      "name": "registry.terraform.io/hashicorp/time",
+      "version": "0.13.1"
+    }
+  },
   "cdktn": {
     "isDeprecated": false,
     "provider": {
