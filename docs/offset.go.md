@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/time/0.13.
 #### Initializers <a name="Initializers" id="@cdktn/provider-time.offset.Offset.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-time-go/time/v12/offset"
+import "github.com/cdktn-io/cdktn-provider-time-go/time/v13/offset"
 
 offset.NewOffset(scope Construct, id *string, config OffsetConfig) Offset
 ```
@@ -456,7 +456,7 @@ func ResetTriggers()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-time.offset.Offset.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-time-go/time/v12/offset"
+import "github.com/cdktn-io/cdktn-provider-time-go/time/v13/offset"
 
 offset.Offset_IsConstruct(x interface{}) *bool
 ```
@@ -488,7 +488,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-time.offset.Offset.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-time-go/time/v12/offset"
+import "github.com/cdktn-io/cdktn-provider-time-go/time/v13/offset"
 
 offset.Offset_IsTerraformElement(x interface{}) *bool
 ```
@@ -502,7 +502,7 @@ offset.Offset_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-time.offset.Offset.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-time-go/time/v12/offset"
+import "github.com/cdktn-io/cdktn-provider-time-go/time/v13/offset"
 
 offset.Offset_IsTerraformResource(x interface{}) *bool
 ```
@@ -516,7 +516,7 @@ offset.Offset_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-time.offset.Offset.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-time-go/time/v12/offset"
+import "github.com/cdktn-io/cdktn-provider-time-go/time/v13/offset"
 
 offset.Offset_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1020,7 +1020,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-time.offset.OffsetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-time-go/time/v12/offset"
+import "github.com/cdktn-io/cdktn-provider-time-go/time/v13/offset"
 
 &offset.OffsetConfig {
 	Connection: interface{},
