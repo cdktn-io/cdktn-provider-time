@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/time/0.14.
 #### Initializers <a name="Initializers" id="@cdktn/provider-time.provider.TimeProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-time-go/time/v13/provider"
+import "github.com/cdktn-io/cdktn-provider-time-go/time/v14/provider"
 
 provider.NewTimeProvider(scope Construct, id *string, config TimeProviderConfig) TimeProvider
 ```
@@ -173,7 +173,7 @@ func ResetAlias()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-time.provider.TimeProvider.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-time-go/time/v13/provider"
+import "github.com/cdktn-io/cdktn-provider-time-go/time/v14/provider"
 
 provider.TimeProvider_IsConstruct(x interface{}) *bool
 ```
@@ -205,7 +205,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-time.provider.TimeProvider.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-time-go/time/v13/provider"
+import "github.com/cdktn-io/cdktn-provider-time-go/time/v14/provider"
 
 provider.TimeProvider_IsTerraformElement(x interface{}) *bool
 ```
@@ -219,7 +219,7 @@ provider.TimeProvider_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformProvider` <a name="IsTerraformProvider" id="@cdktn/provider-time.provider.TimeProvider.isTerraformProvider"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-time-go/time/v13/provider"
+import "github.com/cdktn-io/cdktn-provider-time-go/time/v14/provider"
 
 provider.TimeProvider_IsTerraformProvider(x interface{}) *bool
 ```
@@ -233,7 +233,7 @@ provider.TimeProvider_IsTerraformProvider(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-time.provider.TimeProvider.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-time-go/time/v13/provider"
+import "github.com/cdktn-io/cdktn-provider-time-go/time/v14/provider"
 
 provider.TimeProvider_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -418,7 +418,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-time.provider.TimeProviderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-time-go/time/v13/provider"
+import "github.com/cdktn-io/cdktn-provider-time-go/time/v14/provider"
 
 &provider.TimeProviderConfig {
 	Alias: *string,
