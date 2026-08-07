@@ -9,4 +9,5 @@ export * as rotating from './rotating/index';
 export * as sleep from './sleep/index';
 export * as staticResource from './static-resource/index';
 export * as provider from './provider/index';
+export * as providerFunctions from './provider-functions/index';
 

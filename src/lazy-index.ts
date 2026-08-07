@@ -9,4 +9,5 @@ Object.defineProperty(exports, 'rotating', { get: function () { return require('
 Object.defineProperty(exports, 'sleep', { get: function () { return require('./sleep'); } });
 Object.defineProperty(exports, 'staticResource', { get: function () { return require('./static-resource'); } });
 Object.defineProperty(exports, 'provider', { get: function () { return require('./provider'); } });
+Object.defineProperty(exports, 'providerFunctions', { get: function () { return require('./provider-functions'); } });
 

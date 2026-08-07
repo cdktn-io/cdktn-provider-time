@@ -20,6 +20,7 @@ export interface TimeProviderConfig {
   readonly alias?: string;
 }
 
+import { TimeProviderFunctions } from '../provider-functions/index';
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/time/0.14.0/docs time}
 */
@@ -86,6 +87,21 @@ export class TimeProvider extends cdktn.TerraformProvider {
   // Temporarily expose input value. Use with caution.
   public get aliasInput() {
     return this._alias;
+  }
+
+  // ==========================
+  // PROVIDER-DEFINED FUNCTIONS
+  // ==========================
+  private _functions?: TimeProviderFunctions;
+
+  /**
+  * Provider-defined functions of the time provider.
+  */
+  public get functions(): TimeProviderFunctions {
+    if (!this._functions) {
+      this._functions = new TimeProviderFunctions(this.terraformResourceType);
+    }
+    return this._functions;
   }
 
   // =========
