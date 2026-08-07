@@ -313,6 +313,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/time/0.14.
 | <code><a href="#@cdktn/provider-time.provider.TimeProvider.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktn/provider-time.provider.TimeProvider.property.terraformProviderSource">terraform_provider_source</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-time.provider.TimeProvider.property.alias">alias</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.provider.TimeProvider.property.functions">functions</a></code> | <code>cdktn_provider_time.providerFunctions.TimeProviderFunctions</code> | Provider-defined functions of the time provider. |
 | <code><a href="#@cdktn/provider-time.provider.TimeProvider.property.aliasInput">alias_input</a></code> | <code>str</code> | *No description.* |
 
 ---
@@ -406,6 +407,18 @@ alias: str
 ```
 
 - *Type:* str
+
+---
+
+##### `functions`<sup>Required</sup> <a name="functions" id="@cdktn/provider-time.provider.TimeProvider.property.functions"></a>
+
+```python
+functions: TimeProviderFunctions
+```
+
+- *Type:* cdktn_provider_time.providerFunctions.TimeProviderFunctions
+
+Provider-defined functions of the time provider.
 
 ---
 

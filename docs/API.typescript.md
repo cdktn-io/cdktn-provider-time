@@ -6,6 +6,7 @@ The following submodules are available:
 
 - [offset](./offset.typescript.md)
 - [provider](./provider.typescript.md)
+- [providerFunctions](./providerFunctions.typescript.md)
 - [rotating](./rotating.typescript.md)
 - [sleep](./sleep.typescript.md)
 - [staticResource](./staticResource.typescript.md)

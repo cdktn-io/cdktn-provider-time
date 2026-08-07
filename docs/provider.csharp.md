@@ -287,6 +287,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/time/0.14.
 | <code><a href="#@cdktn/provider-time.provider.TimeProvider.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>Io.Cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktn/provider-time.provider.TimeProvider.property.terraformProviderSource">TerraformProviderSource</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-time.provider.TimeProvider.property.alias">Alias</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.provider.TimeProvider.property.functions">Functions</a></code> | <code>Io.Cdktn.Providers.Time.providerFunctions.TimeProviderFunctions</code> | Provider-defined functions of the time provider. |
 | <code><a href="#@cdktn/provider-time.provider.TimeProvider.property.aliasInput">AliasInput</a></code> | <code>string</code> | *No description.* |
 
 ---
@@ -380,6 +381,18 @@ public string Alias { get; }
 ```
 
 - *Type:* string
+
+---
+
+##### `Functions`<sup>Required</sup> <a name="Functions" id="@cdktn/provider-time.provider.TimeProvider.property.functions"></a>
+
+```csharp
+public TimeProviderFunctions Functions { get; }
+```
+
+- *Type:* Io.Cdktn.Providers.Time.providerFunctions.TimeProviderFunctions
+
+Provider-defined functions of the time provider.
 
 ---
 

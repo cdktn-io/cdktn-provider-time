@@ -6,6 +6,7 @@ The following submodules are available:
 
 - [offset](./offset.python.md)
 - [provider](./provider.python.md)
+- [providerFunctions](./providerFunctions.python.md)
 - [rotating](./rotating.python.md)
 - [sleep](./sleep.python.md)
 - [staticResource](./staticResource.python.md)
