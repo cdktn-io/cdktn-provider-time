@@ -287,6 +287,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/time/0.14.
 | <code><a href="#@cdktn/provider-time.provider.TimeProvider.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktn/provider-time.provider.TimeProvider.property.terraformProviderSource">terraformProviderSource</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-time.provider.TimeProvider.property.alias">alias</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.provider.TimeProvider.property.functions">functions</a></code> | <code>@cdktn/provider-time.providerFunctions.TimeProviderFunctions</code> | Provider-defined functions of the time provider. |
 | <code><a href="#@cdktn/provider-time.provider.TimeProvider.property.aliasInput">aliasInput</a></code> | <code>string</code> | *No description.* |
 
 ---
@@ -380,6 +381,18 @@ public readonly alias: string;
 ```
 
 - *Type:* string
+
+---
+
+##### `functions`<sup>Required</sup> <a name="functions" id="@cdktn/provider-time.provider.TimeProvider.property.functions"></a>
+
+```typescript
+public readonly functions: TimeProviderFunctions;
+```
+
+- *Type:* @cdktn/provider-time.providerFunctions.TimeProviderFunctions
+
+Provider-defined functions of the time provider.
 
 ---
 

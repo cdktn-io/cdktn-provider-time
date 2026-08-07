@@ -6,6 +6,7 @@ The following submodules are available:
 
 - [offset](./offset.java.md)
 - [provider](./provider.java.md)
+- [providerFunctions](./providerFunctions.java.md)
 - [rotating](./rotating.java.md)
 - [sleep](./sleep.java.md)
 - [staticResource](./staticResource.java.md)

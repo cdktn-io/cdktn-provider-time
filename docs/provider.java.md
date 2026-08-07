@@ -293,6 +293,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/time/0.14.
 | <code><a href="#@cdktn/provider-time.provider.TimeProvider.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>io.cdktn.cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktn/provider-time.provider.TimeProvider.property.terraformProviderSource">terraformProviderSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-time.provider.TimeProvider.property.alias">alias</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-time.provider.TimeProvider.property.functions">functions</a></code> | <code>io.cdktn.providers.time.provider_functions.TimeProviderFunctions</code> | Provider-defined functions of the time provider. |
 | <code><a href="#@cdktn/provider-time.provider.TimeProvider.property.aliasInput">aliasInput</a></code> | <code>java.lang.String</code> | *No description.* |
 
 ---
@@ -386,6 +387,18 @@ public java.lang.String getAlias();
 ```
 
 - *Type:* java.lang.String
+
+---
+
+##### `functions`<sup>Required</sup> <a name="functions" id="@cdktn/provider-time.provider.TimeProvider.property.functions"></a>
+
+```java
+public TimeProviderFunctions getFunctions();
+```
+
+- *Type:* io.cdktn.providers.time.provider_functions.TimeProviderFunctions
+
+Provider-defined functions of the time provider.
 
 ---
 
