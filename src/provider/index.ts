@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/time/0.14.0/docs
+// https://registry.terraform.io/providers/hashicorp/time/0.14.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,14 +15,14 @@ export interface TimeProviderConfig {
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/time/0.14.0/docs#alias TimeProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/time/0.14.1/docs#alias TimeProvider#alias}
   */
   readonly alias?: string;
 }
 
 import { TimeProviderFunctions } from '../provider-functions/index';
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/time/0.14.0/docs time}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/time/0.14.1/docs time}
 */
 export class TimeProvider extends cdktn.TerraformProvider {
 
@@ -38,7 +38,7 @@ export class TimeProvider extends cdktn.TerraformProvider {
   * Generates CDKTN code for importing a TimeProvider resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TimeProvider to import
-  * @param importFromId The id of the existing TimeProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/time/0.14.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TimeProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/time/0.14.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TimeProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -50,7 +50,7 @@ export class TimeProvider extends cdktn.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/time/0.14.0/docs time} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/time/0.14.1/docs time} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,7 @@ export class TimeProvider extends cdktn.TerraformProvider {
       terraformResourceType: 'time',
       terraformGeneratorMetadata: {
         providerName: 'time',
-        providerVersion: '0.14.0',
+        providerVersion: '0.14.1',
         providerVersionConstraint: '~> 0.7'
       },
       terraformProviderSource: 'hashicorp/time'

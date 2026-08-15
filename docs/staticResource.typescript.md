@@ -4,7 +4,7 @@
 
 ### StaticResource <a name="StaticResource" id="@cdktn/provider-time.staticResource.StaticResource"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/time/0.14.0/docs/resources/static time_static}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/time/0.14.1/docs/resources/static time_static}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-time.staticResource.StaticResource.Initializer"></a>
 
@@ -503,7 +503,7 @@ The construct id used in the generated config for the StaticResource to import.
 
 The id of the existing StaticResource that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/time/0.14.0/docs/resources/static#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/time/0.14.1/docs/resources/static#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -936,7 +936,7 @@ public readonly rfc3339: string;
 
 Base timestamp in [RFC3339](https://datatracker.ietf.org/doc/html/rfc3339#section-5.8) format (see [RFC3339 time string](https://tools.ietf.org/html/rfc3339#section-5.8) e.g., `YYYY-MM-DDTHH:MM:SSZ`). Defaults to the current time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/time/0.14.0/docs/resources/static#rfc3339 StaticResource#rfc3339}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/time/0.14.1/docs/resources/static#rfc3339 StaticResource#rfc3339}
 
 ---
 
@@ -952,7 +952,7 @@ Arbitrary map of values that, when changed, will trigger a new base timestamp va
 
 See [the main provider documentation](../index.md) for more information.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/time/0.14.0/docs/resources/static#triggers StaticResource#triggers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/time/0.14.1/docs/resources/static#triggers StaticResource#triggers}
 
 ---
 
