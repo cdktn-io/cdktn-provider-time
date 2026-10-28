@@ -11,7 +11,7 @@ Provider-defined functions of the time provider.
 #### Initializers <a name="Initializers" id="@cdktn/provider-time.providerFunctions.TimeProviderFunctions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-time-go/time/v14/providerfunctions"
+import "github.com/cdktn-io/cdktn-provider-time-go/time/v15/providerfunctions"
 
 providerfunctions.NewTimeProviderFunctions(providerLocalName *string) TimeProviderFunctions
 ```
